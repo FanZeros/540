@@ -1,0 +1,33 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "m_g6y3",
+  "author": {
+    "id": "180809535"
+  },
+  "entry": "main.lua",
+  "version": "1.0.6",
+  "taptap_publish": {
+    "title": "零刻 / ZERO HOUR",
+    "description": "一款横版动作游戏。以刀锋弹反枪弹、闪避枪线并击败敌人，在十个关卡中揭开故事真相。",
+    "category": "action",
+    "screen_orientation": "landscape",
+    "collection_type": "action",
+    "trial_note": "",
+    "app_platforms": "1,2",
+    "developer_id": 368176,
+    "app_id": 960823,
+    "miniapp_id": "tapmc38rn6t6ls4dwh"
+  },
+  "assets": {
+    "icon": "",
+    "screenshots": [],
+    "promotional_image": ""
+  },
+  "metadata": {
+    "updated_at": "2026-10-05T10:08:01.726Z"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/m_g6y3_1791194881583.png",
+    "generated_at": "2026-10-05T10:08:01.726Z"
+  }
+}

@@ -1,0 +1,65 @@
+# Build artifacts & runtime state
+.build/
+dist/
+.cli/
+logs/
+*.log
+logs/.nfs*
+.sce/logs/
+.sce/build/build_steps/__pycache__/
+
+# Temp & swap files
+.tmp/
+*.crswap
+.DS_Store
+
+# OSS util
+.ossutil_checkpoint/
+ossutil_output/
+
+# Editor / IDE / agent configs
+.vscode/
+.cursor/
+.codex/
+.gemini/
+.claude/
+.emmylua/
+.installer/
+.maker/
+
+# Maker engine assets & agent files (provided by ai-dev-kit, not user source)
+engine-docs/
+examples/
+lua-tools/
+schemas/
+skills/
+templates/
+tools/
+urhox-libs/
+AGENTS.md
+CLAUDE.md
+
+# 本项目测试依赖、编辑器内部状态与凭据不入库
+.agent/
+.agents/
+.opencode/
+.project/
+tests/runtime/
+tests/deps/
+tests/output/home/
+tests/output/cache/
+tests/output/config/
+__pycache__/
+*.pyc
+.env
+.env.*
+!tests/output/*.log
+!tests/output/**/*.log
+!scripts/*.lua.meta
+# 测试原始日志/报告/截图保留；运行器生成的身份状态和可再生GPU缓存仅本地保存
+tests/output/**/User/
+tests/output/**/mesa_shader_cache/
+tests/output/**/urho3d/
+tests/output/git_home/
+tests/output/staging_manifest.nul
+scripts/.luarc.json

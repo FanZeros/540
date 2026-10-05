@@ -1,0 +1,81 @@
+{
+    "version": 2,
+    "script": "TestHarness.lua",
+    "result": "PASS",
+    "duration_ms": 17509,
+    "frames_completed": 280,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 0,
+            "component_count": 0,
+            "scene_exists": false
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 392.71600341796877
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 19.150999069213868
+        },
+        {
+            "frame": 140,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 16.624000549316408
+        },
+        {
+            "frame": 280,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 19.393999099731447
+        }
+    ],
+    "scene_stalled": true,
+    "max_frame_time_ms": 8835.1279296875,
+    "update_defined": false,
+    "component_census": {},
+    "test_result": "NOT_RUN",
+    "test_assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

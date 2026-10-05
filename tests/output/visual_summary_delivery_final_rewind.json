@@ -1,0 +1,44 @@
+{
+  "backend": "真实 UrhoX / NanoVG 软件离屏渲染",
+  "cases": [
+    {
+      "name": "final_rewind_delivery",
+      "command": [
+        "/workspace/tests/runtime/UrhoXRuntime",
+        "TestHarness.lua",
+        "-tapcode_dir=/workspace",
+        "-tool_mode",
+        "-validate",
+        "-validate-frames=520",
+        "-validate-timeout=110",
+        "-validate-spike-threshold=10000",
+        "-validate-output=/workspace/tests/output/final_rewind_delivery.json",
+        "-screenshot=/workspace/tests/output/final_rewind_delivery.png",
+        "-screenshot-frame=480",
+        "-x",
+        "1352",
+        "-y",
+        "576",
+        "-nosound",
+        "-test-level=2",
+        "-test-style=death",
+        "-graphicssurfaceless"
+      ],
+      "exit": 0,
+      "raw_result": "PASS",
+      "real_errors": [],
+      "noise": [],
+      "missing_resources": [],
+      "frames": 520,
+      "image_ok": true,
+      "png": "tests/output/final_rewind_delivery.png",
+      "log": "tests/output/final_rewind_delivery.log",
+      "rendered_without_script_errors": true,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "机器人动作输入，不等同实体键盘/鼠标操作；当前环境无可听音频输出。",
+    "独立场景截图并不替代 simulation.lua 的连续十关流程。"
+  ]
+}

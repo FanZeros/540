@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "command": [
+    "/workspace/tests/runtime/UrhoXRuntime",
+    "/workspace/tests/simulation.lua",
+    "-tapcode_dir=/workspace",
+    "-tool_mode",
+    "-graphicsheadless",
+    "-nosound",
+    "-log",
+    "warning"
+  ],
+  "cwd": "/workspace/tests/output/simulation_runtime_initial",
+  "wall_seconds": 600.0422983169556,
+  "returncode": -9,
+  "timeout": true,
+  "launch_error": null,
+  "source_hashes_before": {
+    "scripts/Game/Config.lua": "bf613d0f8f56a43811c7967571d8d7bf8a14a2bb48e13208c23c2357f02efc56",
+    "scripts/Game/World.lua": "ec3eeadb771a7c285cacf0c19ea7816d5ce0bcf3f18efa9f2bff0f0ac7580b39",
+    "scripts/Game/Player.lua": "397ab423e0c2f7d39e600d4f93f8eeca46f98fc9285260baa115945178c3bcef",
+    "scripts/Game/Enemies.lua": "a443b9edcde421d8c70e845ef39a90ee3e987bc893ff4d3c5208953988dd1de4",
+    "scripts/Game/Combat.lua": "90fcd8b9b4f60946201728476986c5f88f87cc8cd6a0ad1b173efbe0d12cb09a",
+    "scripts/Game/Collision.lua": "f01a500aa951a2294d4c4ee0384c2e9ba6bfa662a2e1fa4984732aec8ca39700",
+    "scripts/Game/Replay.lua": "c4cf97230c4b43eb0f1fb86db5ea7211fb1267efaaa031a9253f076f84a8374f",
+    "scripts/Game/Effects.lua": "0b7bd21d719fedc8283a04aad1b87eef8bd66162eb96503c516f6c448fa4dd9f",
+    "scripts/main.lua": "c9259caeabefebc1622f6b6f1d3e122a52e9c3c23aeb724e903d19986c98aba7",
+    "计划.md": "52d0e1fb40cc8b51864fd8145a71c92b9d04e7c918e322fdf005dd03a3dc61da",
+    "tests/simulation.lua": "23f79da9137115899e810f905bc7422cf456feca6201e650698410998e6c2a71"
+  },
+  "source_hashes_after": {
+    "scripts/Game/Config.lua": "bf613d0f8f56a43811c7967571d8d7bf8a14a2bb48e13208c23c2357f02efc56",
+    "scripts/Game/World.lua": "d9eeb26100bd56f393f895506fcce9d67c996ee450bcc581d45a1b3a7b30594b",
+    "scripts/Game/Player.lua": "8a348ffd1dd07543bb5016902b71e3b32a955a8cee32ef596bdbd6d1325c0a36",
+    "scripts/Game/Enemies.lua": "1b97c431f89597ed3f2e86d11301c3b2fa26b6e65a61043e12ce0aa4a2c89e64",
+    "scripts/Game/Combat.lua": "ea0d84d267f52e70341c41d91443f66118b37df44061a00342e91d5b4d16a998",
+    "scripts/Game/Collision.lua": "f01a500aa951a2294d4c4ee0384c2e9ba6bfa662a2e1fa4984732aec8ca39700",
+    "scripts/Game/Replay.lua": "9b21ee0965f079463dead32e14b20403ca277eddb172e0256ba571698ec5a36a",
+    "scripts/Game/Effects.lua": "0b7bd21d719fedc8283a04aad1b87eef8bd66162eb96503c516f6c448fa4dd9f",
+    "scripts/main.lua": "35eb278b739d365fa108d928d5eae2cfe95864a4befb12548a8b0ce9189e4a65",
+    "计划.md": "27968404b51377994b2c8fb7bf70833fe21c7a39edf468a09941b4cb4fde057e",
+    "tests/simulation.lua": "806e4874f3acf71b3a79a7bc22ff10eb85310bb155b3bdd36ad9688513251e58"
+  },
+  "changed_during_run": [
+    "scripts/Game/World.lua",
+    "scripts/Game/Player.lua",
+    "scripts/Game/Enemies.lua",
+    "scripts/Game/Combat.lua",
+    "scripts/Game/Replay.lua",
+    "scripts/main.lua",
+    "计划.md",
+    "tests/simulation.lua"
+  ],
+  "max_child_rss_kib": 130076,
+  "stdout": "/workspace/tests/output/simulation_initial.stdout.log",
+  "execution_backend": "official UrhoXRuntime embedded Lua 5.4",
+  "network_or_install_by_runner": false,
+  "simulation": null,
+  "limitations": [
+    "Logic only: no rendered gameplay, audible audio, or OS keyboard delivery asserted.",
+    "Unit fixtures arrange isolated states; campaign and 200k longrun use only action inputs.",
+    "Engine bootstrap emits Noop UI shader warnings; these are not simulation test failures."
+  ],
+  "status": "blocked",
+  "reason": "No complete simulation JSON marker; runtime startup/syntax/crash/timeout cannot count as a passed test."
+}

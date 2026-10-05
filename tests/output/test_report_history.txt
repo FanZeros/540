@@ -1,0 +1,47 @@
+零刻自测：历史失败与复测说明（所有原始stdout和JSON保留）
+
+执行方式：本项目tests/runtime/UrhoXRuntime，真实Lua 5.4；无联网下载、无安装。
+测试代理只修改tests/simulation.lua、tests/run_tests.py和simulation*/test_report*产物，未修改玩法源码。
+协调主代理在测试期间独立修改过玩法与计划；各次运行记录前后SHA256以区分版本，不将旧版本结果冒充最终验证。
+
+初始探测与语法阻塞
+- simulation_probe*.log保留全部实际命令：旧-headless会启动失败或SIGSEGV；-graphicsheadless/-tool_mode/-tapcode_dir=/workspace搭配绝对测试脚本成功。
+- test_report_initial.txt：自测脚本第328行错误的Lua多变量声明。纠正测试本身后继续执行；不计入游戏bug。
+- 无需scripts wrapper或符号链接；最终直接以/workspace/tests/simulation.lua作为官方运行器入口。
+
+v1（55通过、6失败、7阻塞）逐条分类
+1. combat.spawn_not_knife_target：测试预期不再匹配主代理的一刀死规则。出生状态也应被刀立即杀，改为combat.spawn_one_slash_lethal。不是为了让失败通过而改敌人状态。
+2. FSM.melee_all_states：隔离单测仅跑800步，远距离敌人尚未从Walk追到Run。延长到1500步，使实际FSM路径完整；非游戏缺陷。
+3. FSM.high_level_multi_shot_contract：第10关Shoot只发一发，与计划高关连发不符。实测shots=1。主代理修复后v2/v3复测通过。
+4. objects.chain_respects_vertical_distance：同x、y100箱子被y246桶链爆，垂直差146仍破坏。主代理加垂直范围后v2/v3复测通过。
+5. portal.swept_fast_bullet：子弹40→100跨过x70门，teleports=0，原来只检查终点。主代理加扫掠后v2/v3复测通过。
+6. campaign.legal_inputs.level_3：机器人在桶旁不停跳但不挥刀，6次失败；这是机器人策略缺陷，不能断言游戏不可通关。只改机器人为57..62安全距离优先砍桶，之后同一个World合法输入完成十关；没有删除敌人、改玩家位置或强制Load。
+7. campaign关4..10：第3关未完成所以如实阻塞，未作弊跳关。v2/v3正常流程验证解除阻塞。
+
+v2（67通过、1失败、0阻塞）
+- replay.normal_world_timeline_not_real：旧版计划按worldTime去除慢时，新版计划改为按realTime保持录像1倍。实测3s录像播放3.258333s，world端仅1.44s。
+- 这是回放需求语义变更，不称其为bug修复。新用例replay.normal_real_timeline_no_fast_forward验证实际1倍，30Hz实时间采样另外覆盖。
+
+v3（78通过、0失败、0阻塞）
+- 新增门/敌/箱最早碰撞顺序、出生Idle完整时长、玩家11动画、清场尸体、采样iframe、确定性输入回归。
+- 十关同一World81704步→ending，无死亡/重启；只用了A/D、J、L。并不声称通关轨迹覆盖跳跃、翻滚或弹反，后三者由独立实际模块单测验证。
+- 200k步长测99686活动步、99825回放步，19次通关，1次随机压力死亡；活Lua内存峰值65995.85KiB。
+- 对抗单测将2700快照装入全部粒子/血斑等上限，使整个运行器峰值RSS达到678360KiB。数组有界不代表低内存；移动端内存/画面/音频和OS键盘未由此测试验证。
+
+v4（79通过、1失败、0阻塞）
+- input.main_nil_actions_focus_recovery通过：实际main.lua经load隔离环境执行，音画依赖与Input为替身；从失焦空表/稀疏按键恢复后J/K仍可执行。
+- input.main_focus_loss_clears_buffered_press失败：聚焦J按下更新STEP/4（尚未模拟步），随后失焦更新STEP，World仍收到slash=true。slash_after_focus_loss=true，与计划失焦清按键不符。
+- 此缺陷已报告给主代理，测试代理未修生产脚本。最终默认test_report.txt与simulation.json记录最后冻结版本的再次实际执行结果。
+
+证据路径
+/workspace/tests/output/simulation_v1.stdout.log 与 simulation_v1.json
+/workspace/tests/output/simulation_v2.stdout.log 与 simulation_v2.json
+/workspace/tests/output/simulation_v3.stdout.log 与 simulation_v3.json
+/workspace/tests/output/simulation_v4.stdout.log 与 simulation_v4.json
+/workspace/tests/output/test_report_v1.txt、test_report_v2.txt、test_report_v3.txt、test_report_v4.txt
+
+跨平台与测试边界
+- 本机实际验证Linux官方运行器内嵌Lua5.4，Windows分支仅兼容编码。
+- 隔离边界单测设置场景初始状态；十关与长测机器人不修改玩家/敌人或通过模块Kill/Break/Load制造胜利。
+- main入口回归执行真实代码但依赖与Input为替身，不是OS投递键盘/失焦事件。
+- 视觉与可听声音由其他主代理独立验收，本报告不伪造真实画面或声音证据。

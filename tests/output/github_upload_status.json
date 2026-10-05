@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/FanZeros/540",
+  "branch": "feature/zero-hour-20261005",
+  "local_commit": "be993b087c7a9085385dc6a055c4eeab36f371f2",
+  "push_returncode": 128,
+  "uploaded": false,
+  "evidence": "tests/output/github_push.log"
+}

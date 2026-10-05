@@ -1,0 +1,990 @@
+{
+  "frames": {
+    "大壮动作 0.aseprite": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 1.aseprite": {
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 2.aseprite": {
+      "frame": {
+        "x": 144,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 3.aseprite": {
+      "frame": {
+        "x": 216,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 4.aseprite": {
+      "frame": {
+        "x": 288,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 5.aseprite": {
+      "frame": {
+        "x": 360,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 6.aseprite": {
+      "frame": {
+        "x": 432,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 7.aseprite": {
+      "frame": {
+        "x": 504,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 8.aseprite": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 9.aseprite": {
+      "frame": {
+        "x": 648,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 10.aseprite": {
+      "frame": {
+        "x": 720,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 11.aseprite": {
+      "frame": {
+        "x": 792,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 12.aseprite": {
+      "frame": {
+        "x": 864,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 13.aseprite": {
+      "frame": {
+        "x": 936,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 14.aseprite": {
+      "frame": {
+        "x": 1008,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 15.aseprite": {
+      "frame": {
+        "x": 1080,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 16.aseprite": {
+      "frame": {
+        "x": 1152,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 17.aseprite": {
+      "frame": {
+        "x": 1224,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 18.aseprite": {
+      "frame": {
+        "x": 1296,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 19.aseprite": {
+      "frame": {
+        "x": 1368,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 20.aseprite": {
+      "frame": {
+        "x": 1440,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 21.aseprite": {
+      "frame": {
+        "x": 1512,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 22.aseprite": {
+      "frame": {
+        "x": 1584,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 23.aseprite": {
+      "frame": {
+        "x": 1656,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 24.aseprite": {
+      "frame": {
+        "x": 1728,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 25.aseprite": {
+      "frame": {
+        "x": 1800,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 26.aseprite": {
+      "frame": {
+        "x": 1872,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 27.aseprite": {
+      "frame": {
+        "x": 1944,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 28.aseprite": {
+      "frame": {
+        "x": 2016,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 29.aseprite": {
+      "frame": {
+        "x": 2088,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 30.aseprite": {
+      "frame": {
+        "x": 2160,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 31.aseprite": {
+      "frame": {
+        "x": 2232,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 32.aseprite": {
+      "frame": {
+        "x": 2304,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 33.aseprite": {
+      "frame": {
+        "x": 2376,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 34.aseprite": {
+      "frame": {
+        "x": 2448,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 35.aseprite": {
+      "frame": {
+        "x": 2520,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 36.aseprite": {
+      "frame": {
+        "x": 2592,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 37.aseprite": {
+      "frame": {
+        "x": 2664,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 38.aseprite": {
+      "frame": {
+        "x": 2736,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 39.aseprite": {
+      "frame": {
+        "x": 2808,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 40.aseprite": {
+      "frame": {
+        "x": 2880,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 41.aseprite": {
+      "frame": {
+        "x": 2952,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 42.aseprite": {
+      "frame": {
+        "x": 3024,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    },
+    "大壮动作 43.aseprite": {
+      "frame": {
+        "x": 3096,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 54
+      },
+      "duration": 100
+    }
+  },
+  "meta": {
+    "app": "原创程序化像素画生成器",
+    "version": "1.0",
+    "image": "大壮动作.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 3168,
+      "h": 54
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "Idle",
+        "from": 0,
+        "to": 5,
+        "direction": "forward"
+      },
+      {
+        "name": "Switch",
+        "from": 6,
+        "to": 12,
+        "direction": "forward"
+      },
+      {
+        "name": "Hurt",
+        "from": 13,
+        "to": 17,
+        "direction": "forward"
+      },
+      {
+        "name": "Hit",
+        "from": 18,
+        "to": 21,
+        "direction": "forward"
+      },
+      {
+        "name": "Death",
+        "from": 22,
+        "to": 27,
+        "direction": "forward"
+      },
+      {
+        "name": "Walk",
+        "from": 28,
+        "to": 37,
+        "direction": "forward"
+      },
+      {
+        "name": "Run",
+        "from": 38,
+        "to": 43,
+        "direction": "forward"
+      }
+    ],
+    "layers": [
+      {
+        "name": "original",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

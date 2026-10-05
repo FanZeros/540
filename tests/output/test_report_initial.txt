@@ -1,0 +1,28 @@
+ZERO HOUR actual Lua self-test
+Status: blocked
+Command: /workspace/tests/runtime/UrhoXRuntime /workspace/tests/simulation.lua -tapcode_dir=/workspace -tool_mode -graphicsheadless -nosound -log warning
+Working directory: /workspace/tests/output/simulation_runtime_initial
+Runtime exit=-9; wall=600.042s; timeout=True
+Stdout: /workspace/tests/output/simulation_initial.stdout.log
+Summary: /workspace/tests/output/simulation_initial.json
+No complete simulation JSON marker; runtime startup/syntax/crash/timeout cannot count as a passed test.
+$ /workspace/tests/runtime/UrhoXRuntime /workspace/tests/simulation.lua -tapcode_dir=/workspace -tool_mode -graphicsheadless -nosound -log warning
+cwd=/workspace/tests/output/simulation_runtime_initial
+[2026-10-05 10_24_53_227][1] ERROR: Failed to compile vertex shader UI(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR VERTEXCOLOR):
+shader compile skipped (graphics headless)
+[2026-10-05 10_24_53_227][1] ERROR: Failed to compile pixel shader UI(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR OPACITY VERTEXCOLOR):
+shader compile skipped (graphics headless)
+[2026-10-05 10_24_53_227][1] ERROR: Failed to compile vertex shader UI(DIFFMAP):
+shader compile skipped (graphics headless)
+[2026-10-05 10_24_53_227][1] ERROR: Failed to compile pixel shader UI(DIFFMAP OPACITY):
+shader compile skipped (graphics headless)
+[2026-10-05 10_24_53_254][3] ERROR: Load Buffer failed for /workspace/tests/simulation.lua: [string "/workspace/tests/simulation"]:328: unexpected symbol near '='
+[2026-10-05 10_24_53_254][3] ERROR: Failed to parse script file[/workspace/tests/simulation.lua]!
+
+RUNNER_RETURN_CODE=-9
+
+Sources changed during run: scripts/Game/World.lua, scripts/Game/Player.lua, scripts/Game/Enemies.lua, scripts/Game/Combat.lua, scripts/Game/Replay.lua, scripts/main.lua, 计划.md, tests/simulation.lua
+Limitations:
+Logic only: no rendered gameplay, audible audio, or OS keyboard delivery asserted.
+Unit fixtures arrange isolated states; campaign and 200k longrun use only action inputs.
+Engine bootstrap emits Noop UI shader warnings; these are not simulation test failures.

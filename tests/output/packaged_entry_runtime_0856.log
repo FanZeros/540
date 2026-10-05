@@ -1,0 +1,18 @@
+command=['/workspace/tests/runtime/UrhoXRuntime', 'main.lua', '-tapcode_dir=/workspace/.build/taptap-game-dist', '-tool_mode', '-validate', '-validate-frames=180', '-validate-timeout=110', '-validate-spike-threshold=10000', '-validate-output=/workspace/tests/output/packaged_entry_runtime_0856.json', '-screenshot=/workspace/tests/output/packaged_entry_runtime_0856.png', '-screenshot-frame=140', '-x', '1352', '-y', '576', '-nosound', '-graphicssurfaceless']
+[2026-10-05 17_14_10_125][0] INFO: DownloadManager initialized
+[2026-10-05 17_14_10_127][0] INFO: a couple of Subsystems registered finish.
+[2026-10-05 17_14_10_127][0] INFO: Engine construct finish.
+[2026-10-05 17_14_10_142][0] WARNING: -graphicsheadless ignored: -graphicssurfaceless takes precedence (real GLES rendering vs Noop); the two are mutually exclusive.
+/workspace/engine/Source/ThirdParty/bgfx-all/bgfx/src/renderer_gl.cpp (2474): LOG Support Color buffer fetch.
+[2026-10-05 17_14_12_024][0] ERROR: Directory not exist, create new one: /workspace/.build/taptap-game-dist/scripts
+[2026-10-05 17_14_12_343][3] ERROR: Could not find resource main.lua
+[2026-10-05 17_14_12_343][3] ERROR: Failed to parse script file[main.lua]!
+[2026-10-05 17_14_12_020][0] WARNING: Directory[/workspace/tests/runtime/AgentProject] not exists.
+[2026-10-05 17_14_12_323][3] WARNING: RuntimeRetargeterCache: Cannot load mapping table: uuid://F4ItQUiV0gmvAelLXpk5yrTs
+[2026-10-05 17_14_12_325][3][Script] IsNetworkMode:    false
+[2026-10-05 17_14_12_337][3][Script] [InputAdaptor] Loading input event adaptor...
+[2026-10-05 17_14_12_337][3][Script] [InputAdaptor] Hooked SubscribeToEvent for event mapping.
+[2026-10-05 17_14_12_337][3][Script] [InputAdaptor] Platform: Linux, isTouchPlatform: false
+[2026-10-05 17_14_12_337][3][Script] [InputAdaptor] Hooked Input methods for touch emulation fallback.
+[2026-10-05 17_14_12_338][3][Script] Check Transition.lua SimpleGrid.lua
+[2026-10-05 17_16_02_124][6596]INFO__VALIDATE_UPDATE__:false

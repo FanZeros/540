@@ -1,0 +1,545 @@
+{
+  "total_assets_including_sidecars": 88,
+  "game_assets": 44,
+  "sidecars": 44,
+  "records": [
+    {
+      "path": "assets/Ambient.wav",
+      "purpose": "循环雨夜氛围",
+      "bytes": 264644,
+      "sha256": "bfea867751214357119248006667c3db422c888a54e5281c5fff7811f1898883"
+    },
+    {
+      "path": "assets/Ambient.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Ambient.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "db0eec4a903f956b4506b5d74a41bee0463f9da5e00d93ae5e79b156c581ef87"
+    },
+    {
+      "path": "assets/Background.png",
+      "purpose": "整屏676×288背景，地面246、四门刷兵",
+      "bytes": 25458,
+      "sha256": "28ddf6faa1c10c66c775bb5cdb61c59cb6276ec84034b4db8262463f27f051c4"
+    },
+    {
+      "path": "assets/Background.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Background.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "06d6fcc9531a9b5cb1c2aa744f442303382b571757b4f5e94e6cc2cd6a62f9d2"
+    },
+    {
+      "path": "assets/Barrel.png",
+      "purpose": "可破坏爆炸桶",
+      "bytes": 516,
+      "sha256": "1afceb07814aa05a614aa5c8bfea8a1f12bc79a146616c33be3ab9ee933317e2"
+    },
+    {
+      "path": "assets/Barrel.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Barrel.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "1aec292c3a695c6267a0847e35363a74c47bf05a351927b07fd9a92618c48238"
+    },
+    {
+      "path": "assets/Bullet.png",
+      "purpose": "敌弹、反弹与箱体飞片",
+      "bytes": 132,
+      "sha256": "32616edb98a7c759baa523d237eef1ccadf2ca3436267d082b5bb6b6182c3ad9"
+    },
+    {
+      "path": "assets/Bullet.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Bullet.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "46f0bfec6812a5d9258fc4ee25212d3f13e6ca50692c8b9251932b792ab7a530"
+    },
+    {
+      "path": "assets/Crate.png",
+      "purpose": "可破坏木箱",
+      "bytes": 569,
+      "sha256": "8968d511e0d876dcd122e0f0d05e778a2128663889f72f6d4f102a34b634d0f8"
+    },
+    {
+      "path": "assets/Crate.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Crate.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "f5a15e4ba6862dd8b9d18095f23039c7bfe245080bdaf1de85be6204098f8a69"
+    },
+    {
+      "path": "assets/Music.wav",
+      "purpose": "循环原创电子节奏",
+      "bytes": 529244,
+      "sha256": "f495740f9b8bd9fef2247f2f90e8580aeb56a7cd8bb912a77d4636e886872cd6"
+    },
+    {
+      "path": "assets/Music.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Music.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "7a9d5ca44897489866e792031946afcafe0f97858e20576293ee424b8d885440"
+    },
+    {
+      "path": "assets/Platform.png",
+      "purpose": "单向落脚平台",
+      "bytes": 236,
+      "sha256": "8513e743c6d3000c06794997c20184a73100d8d42be58fc1c473c99b6133d2b8"
+    },
+    {
+      "path": "assets/Platform.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Platform.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "87247346cda8828f5c1f357d3ef500467e496df359c8250072e1075b219f29fd"
+    },
+    {
+      "path": "assets/Portal.png",
+      "purpose": "成对传送区域",
+      "bytes": 1902,
+      "sha256": "e2ff92537dbb85e02494170e212d3737b3b191762a9f137158117f6f43fa360b"
+    },
+    {
+      "path": "assets/Portal.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 Portal.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "704a7ce263a0b5b92b7f7ea91d3a1c6d163117af1983dd0a867fe6646a48c60b"
+    },
+    {
+      "path": "assets/VFX_Jump.png",
+      "purpose": "跳跃足底光粒",
+      "bytes": 8104,
+      "sha256": "40ded7b267f38b86e21d98fa59589d9831b73c07478f6af4df6df106a6520ac0"
+    },
+    {
+      "path": "assets/VFX_Jump.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 VFX_Jump.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "c462fae4a36183cc6706d35d88d757bd4ce82f9103e61d0a19934241a95c9f17"
+    },
+    {
+      "path": "assets/VFX_Land.png",
+      "purpose": "落地尘光",
+      "bytes": 2260,
+      "sha256": "b816542ce2efb40051240e6a0f99826ab2e17dfe63e8dfbf2aabe938d425bce4"
+    },
+    {
+      "path": "assets/VFX_Land.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 VFX_Land.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "10fa02a55673fd3f35f5382e0f285a8b85d74dee54d06cc0731880581c74bd35"
+    },
+    {
+      "path": "assets/VFX_Roll.png",
+      "purpose": "翻滚光环",
+      "bytes": 3395,
+      "sha256": "5ad1babdd80f4f32d1ee39fbd31c07d603a899854dbff53a1e64d45ffeb0fb3f"
+    },
+    {
+      "path": "assets/VFX_Roll.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 VFX_Roll.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "4882b3aedb450bef061d287221259816e0ea481f4606d849c19da45157515b8a"
+    },
+    {
+      "path": "assets/VFX_Slash.png",
+      "purpose": "挥刀弧光",
+      "bytes": 8392,
+      "sha256": "2fe5274e69befa2d0a5e58d8219e7482832b2468707eaafa3646631751b405fb"
+    },
+    {
+      "path": "assets/VFX_Slash.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 VFX_Slash.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "3aab5495a2f93bb32ee0536897050d253415a77e95209c004c72e4b877ee3f85"
+    },
+    {
+      "path": "assets/sound_player_jump.wav",
+      "purpose": "对应玩家动作音效：jump",
+      "bytes": 10804,
+      "sha256": "b4052de94d3c4c1030f75616e7896e4c05384e544a4a2e3f9ae69509a8545c85"
+    },
+    {
+      "path": "assets/sound_player_jump.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_jump.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "cb4d14be612f85dbf49546ef94f44cf0994167e26e537478ebc824b3528061f6"
+    },
+    {
+      "path": "assets/sound_player_land.wav",
+      "purpose": "对应玩家动作音效：land",
+      "bytes": 7496,
+      "sha256": "9f12380051becb688e7c6439db1c708a957bcb202699f8e2b12a7bdbd7aa1930"
+    },
+    {
+      "path": "assets/sound_player_land.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_land.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "7db657f5ee616bb11bc7bf4a448ade7611a1f7ac60bc55c7405426564a9fd778"
+    },
+    {
+      "path": "assets/sound_player_landwire.wav",
+      "purpose": "对应玩家动作音效：landwire",
+      "bytes": 17110,
+      "sha256": "696b5a8a6439f623c3f791c243bf567908dad29efd49e9f67c662d464a0b7acc"
+    },
+    {
+      "path": "assets/sound_player_landwire.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_landwire.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "34cdb11fee9255fcd1679b8180b54c2554c022835975da71dabaf8e54329a3c5"
+    },
+    {
+      "path": "assets/sound_player_prerun.wav",
+      "purpose": "对应玩家动作音效：prerun",
+      "bytes": 19052,
+      "sha256": "7f119aa09d6b3f66dc7e4f786032b026557849fc49ff8d394d2f259991a292e7"
+    },
+    {
+      "path": "assets/sound_player_prerun.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_prerun.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "27f16a8f4a45d16f5c21c59da79216db164f5f4b5eb15c92ea7ca40015cd3062"
+    },
+    {
+      "path": "assets/sound_player_roll.wav",
+      "purpose": "对应玩家动作音效：roll",
+      "bytes": 48906,
+      "sha256": "c43a1184ba3c502b769bd51e140702efe0574bcf574d05bf576ca4e6b64cf01c"
+    },
+    {
+      "path": "assets/sound_player_roll.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_roll.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "df3470ece7390983218644070c2935ac4c9500be21fdad4b853328514093ea31"
+    },
+    {
+      "path": "assets/sound_player_running_1.wav",
+      "purpose": "跑步脚步轮换变体1",
+      "bytes": 6482,
+      "sha256": "410ae0fede3f80c4704baa4e619f1c6f98b3a8d7fa6dca964160d63d1b769be9"
+    },
+    {
+      "path": "assets/sound_player_running_1.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_running_1.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "a2199d634d7c03127eedbec27040617ac7dd9c51f8b8a5cf700ade0b757305db"
+    },
+    {
+      "path": "assets/sound_player_running_2.wav",
+      "purpose": "跑步脚步轮换变体2",
+      "bytes": 6704,
+      "sha256": "1cba862bf6b8a98d90403a6513906d9c68791ddc68a804a5481b32acfd128233"
+    },
+    {
+      "path": "assets/sound_player_running_2.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_running_2.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "c3940743f9e8dc3d857691a47b55dc1f0b19a8460d8d8e9467c98be218764877"
+    },
+    {
+      "path": "assets/sound_player_running_3.wav",
+      "purpose": "跑步脚步轮换变体3",
+      "bytes": 6880,
+      "sha256": "57444495fdd0a2cb8d763523a3bae8d7fb1eac217dbe238ac0fe66a3ffb6edd1"
+    },
+    {
+      "path": "assets/sound_player_running_3.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_running_3.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "96ebe9f6b731faaa87e22402a96ed0418fe4806e35ff0e9143074e8ca02c2ef2"
+    },
+    {
+      "path": "assets/sound_player_running_4.wav",
+      "purpose": "跑步脚步轮换变体4",
+      "bytes": 7056,
+      "sha256": "64ec19fedf91f5a5c482a7b05f27b6a8be6dda7c4460e1db73df70de6ed48928"
+    },
+    {
+      "path": "assets/sound_player_running_4.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_running_4.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "5aef0febc23a0c65ba195cfa53b415ddb2184a89b675ad5fce74360a3a54f7e2"
+    },
+    {
+      "path": "assets/sound_player_slash_1.wav",
+      "purpose": "挥刀轮换变体1，部分用于敌人枪声",
+      "bytes": 29458,
+      "sha256": "10a0c5b11d0be570276880233a5c365a9f379cd177bc3c5a4db755ec82185eb4"
+    },
+    {
+      "path": "assets/sound_player_slash_1.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_slash_1.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "315e8bab5b4df9a4644e76cf10c54e13026b349d0b69e0289b75c6be6c08e9c5"
+    },
+    {
+      "path": "assets/sound_player_slash_2.wav",
+      "purpose": "挥刀轮换变体2，部分用于敌人枪声",
+      "bytes": 30032,
+      "sha256": "c963854e9c41adebd88b62f3bcc4d619be0d0cbd814e9816a5394e8157fa194b"
+    },
+    {
+      "path": "assets/sound_player_slash_2.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_slash_2.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "51ac7eb375c00e9f978b1a90e16fa4bca25fcd38e85ed40310a6e9ea6b38699b"
+    },
+    {
+      "path": "assets/sound_player_slash_3.wav",
+      "purpose": "挥刀轮换变体3，部分用于敌人枪声",
+      "bytes": 30914,
+      "sha256": "7af19a4ac4b481a7390e2239202d961472e8f8a5da765343569d409dbe7e1afd"
+    },
+    {
+      "path": "assets/sound_player_slash_3.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_slash_3.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "a683a00c3ad21a3c9fecc413c323912a5bf44a1f73242270ad5e86be902e5926"
+    },
+    {
+      "path": "assets/sound_player_wallslide.wav",
+      "purpose": "对应玩家动作音效：wallslide",
+      "bytes": 44144,
+      "sha256": "3130980e50adb80384036ef5a5d3e45328840d60bdf97856f3f1d71dd8a3d50a"
+    },
+    {
+      "path": "assets/sound_player_wallslide.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_player_wallslide.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "a8d3d9f415512c0df9ecd6089fa247d29557af30313a3862fd0c39df8b14aeb3"
+    },
+    {
+      "path": "assets/sound_playerdie.wav",
+      "purpose": "玩家一击死亡音效",
+      "bytes": 115234,
+      "sha256": "e5f68bb867b00fe4a22f1151d97f82f811777d0a101594e31945bb856ac42ae2"
+    },
+    {
+      "path": "assets/sound_playerdie.wav.meta",
+      "purpose": "官方构建导入UUID旁车；对应 sound_playerdie.wav；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "6fc385edae8b912710cc5627330de0f9dd06715ede9e63aedcd9de51fc6ccdc3"
+    },
+    {
+      "path": "assets/受击特效.png",
+      "purpose": "敌人与玩家受击喷血",
+      "bytes": 5238,
+      "sha256": "f61c3d5c1361942c9fa5116d04e51d16f638d0dc157cd57ecc5bd39ca2b6eeab"
+    },
+    {
+      "path": "assets/受击特效.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 受击特效.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "65b2550e0cd6d5f844a3302f56a8fe07d8e0491aba3c3f8085691adb88798da9"
+    },
+    {
+      "path": "assets/大壮动作.json",
+      "purpose": "启动读取Aseprite标签",
+      "bytes": 17447,
+      "sha256": "273aa7c33b2f2b1cf12908dd78fc5883d2a29baa56f3de2e9cad0ab969268601"
+    },
+    {
+      "path": "assets/大壮动作.json.meta",
+      "purpose": "官方构建导入UUID旁车；对应 大壮动作.json；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "4c55a262eb64b7542aa35a4fd5e9d3a2ffb3766ab40053b75208eb6eae893996"
+    },
+    {
+      "path": "assets/大壮动作.png",
+      "purpose": "近战FSM全部动作切图",
+      "bytes": 14821,
+      "sha256": "40b5bc21c92455fb72a3585ebbde970e8fae9b0884da09d3cac510bdade840c6"
+    },
+    {
+      "path": "assets/大壮动作.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 大壮动作.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "2c639e9e0c0988fe799df78170b1cacb5071a2e5bd82b479c696b17507dba418"
+    },
+    {
+      "path": "assets/大壮攻击特效.png",
+      "purpose": "近战攻击刀光",
+      "bytes": 3002,
+      "sha256": "b9aaa248f771b2222f2c82d4755d6f85030221a83cef064a239d580612646aec"
+    },
+    {
+      "path": "assets/大壮攻击特效.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 大壮攻击特效.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "93df401b220dbe2058f8195a6be26621f350f0f22d707dfdfe37f1406d7b8035"
+    },
+    {
+      "path": "assets/射击特效.png",
+      "purpose": "枪口火花",
+      "bytes": 5327,
+      "sha256": "f7ee6e7354a97ba96e85c06f783e219dba2f2033576f1b4f3e69295e78fe53be"
+    },
+    {
+      "path": "assets/射击特效.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 射击特效.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "8ef29e659471fb1e6d2513542eb398d7d320514dc4fe71e85d9fe15711f13aa1"
+    },
+    {
+      "path": "assets/武士零主角/Hit.png",
+      "purpose": "玩家状态动画：Hit",
+      "bytes": 2455,
+      "sha256": "26c986574f4d31065259a5c92570f16fa70e499eb8e5958bb655ab098ffecd35"
+    },
+    {
+      "path": "assets/武士零主角/Hit.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Hit.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "7ad3ff33b985012bf13bfd3d8831dc76240fd1065bf6ef1e561cfc84db6310fa"
+    },
+    {
+      "path": "assets/武士零主角/Idle.png",
+      "purpose": "玩家状态动画：Idle",
+      "bytes": 2229,
+      "sha256": "04fa33d1cb794412a05e25f22968a0ef9d400b1f1635d770b60390be3ec7b584"
+    },
+    {
+      "path": "assets/武士零主角/Idle.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Idle.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "69392797092c490d433d6e48cb58ce7ef315a06f0357983b29d83916d0bc2914"
+    },
+    {
+      "path": "assets/武士零主角/Jump.png",
+      "purpose": "玩家状态动画：Jump",
+      "bytes": 5452,
+      "sha256": "912c5c86b68f689f3dc681c7aed91e7ebc757655b23a929ef5364fe68cde4f93"
+    },
+    {
+      "path": "assets/武士零主角/Jump.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Jump.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "692c89bce569c78571517893e6956d6d6af54e4b219d4118d62898846a54050b"
+    },
+    {
+      "path": "assets/武士零主角/Land.png",
+      "purpose": "玩家状态动画：Land",
+      "bytes": 1809,
+      "sha256": "01d6ef73161478330080b693393681fc2e3644bc28ca30d4cf8beac38c1f92c6"
+    },
+    {
+      "path": "assets/武士零主角/Land.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Land.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "207e4e50bd12f8fde6d03faeaff2658027e6fd14adbf6e9d0403488d1d77dca5"
+    },
+    {
+      "path": "assets/武士零主角/Prerun.png",
+      "purpose": "玩家状态动画：Prerun",
+      "bytes": 3025,
+      "sha256": "99679d7d355473f6f0f7abd84baec3fdfdad3c2233e267b6fa0df55b1cb9745f"
+    },
+    {
+      "path": "assets/武士零主角/Prerun.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Prerun.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "97222e1c24817c5e97fe2c13408e92ba88afe47df71043604a0d45d8d5b94a88"
+    },
+    {
+      "path": "assets/武士零主角/Roll.png",
+      "purpose": "玩家状态动画：Roll",
+      "bytes": 3509,
+      "sha256": "5d43cbd19b630c7de8cc24f1833972184164b93189bac4f499e33cac2f088189"
+    },
+    {
+      "path": "assets/武士零主角/Roll.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Roll.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "11bd0154b4bf35afe5bbad32c0b64f43a7b2626d6a9d2a527cf82a83d4e9a6fe"
+    },
+    {
+      "path": "assets/武士零主角/Run.png",
+      "purpose": "玩家状态动画：Run",
+      "bytes": 5394,
+      "sha256": "fe26d2539158c9e01ec66b6e68173b152525accb069657d2f680081741036c64"
+    },
+    {
+      "path": "assets/武士零主角/Run.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Run.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "fcb651f29315f31a8ba8c4d431526253619cc83a6fe30eba9bd5028d885d151a"
+    },
+    {
+      "path": "assets/武士零主角/Slash.png",
+      "purpose": "玩家状态动画：Slash",
+      "bytes": 3295,
+      "sha256": "29c8be042b261c6410254d44ce58a8123d539e7e5e2cab01ebb3d317060815c2"
+    },
+    {
+      "path": "assets/武士零主角/Slash.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Slash.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "6db4bbf1aaaafde8e7c728f9bb0c04fcb648d765647a0bac571188022d73e0c5"
+    },
+    {
+      "path": "assets/武士零主角/Squat.png",
+      "purpose": "玩家状态动画：Squat",
+      "bytes": 2225,
+      "sha256": "765536740fa18fbcb227e37c17955e99df99e29f53430c6f909c5095ebb028fc"
+    },
+    {
+      "path": "assets/武士零主角/Squat.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Squat.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "84afb68e6bdffa0d4c200d5526bcb4b3268a50fc5fad987c7074ed12eb292fed"
+    },
+    {
+      "path": "assets/武士零主角/Stoprun.png",
+      "purpose": "玩家状态动画：Stoprun",
+      "bytes": 2588,
+      "sha256": "48cb5a05bdc209d90e774d34b9b6e5974e060fa3cedf51f184c92dc0df24ebdc"
+    },
+    {
+      "path": "assets/武士零主角/Stoprun.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Stoprun.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "23771d78efeb1c28649ffcb439f7f08d3751c31ad5668e1575cd7e3b6d787ad7"
+    },
+    {
+      "path": "assets/武士零主角/Wallslide.png",
+      "purpose": "玩家状态动画：Wallslide",
+      "bytes": 1432,
+      "sha256": "69fe489fe1c8a2723a211b450bfda1282b983932738d57eaf3b512313b1f508e"
+    },
+    {
+      "path": "assets/武士零主角/Wallslide.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 武士零主角/Wallslide.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "31d839d25e777ce48b75bcd9194df84141ca4e736c63233edb7ad4d25292a67f"
+    },
+    {
+      "path": "assets/盾牌男.json",
+      "purpose": "启动读取Aseprite标签",
+      "bytes": 21224,
+      "sha256": "22f4560a9b7772b8d95b0e80b7b3c6e157d07a5c2c9951791d5139f44e7eb31b"
+    },
+    {
+      "path": "assets/盾牌男.json.meta",
+      "purpose": "官方构建导入UUID旁车；对应 盾牌男.json；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "01a2416ccf4fcf4356a10b6dc0caafd63c57e3e2fa75a7aad168b493215e681e"
+    },
+    {
+      "path": "assets/盾牌男.png",
+      "purpose": "枪手FSM全部动作切图",
+      "bytes": 10559,
+      "sha256": "22cbfe49fad628c336e8e4fae57ef6518ade6ae880c08453570f088e1ddb6f4d"
+    },
+    {
+      "path": "assets/盾牌男.png.meta",
+      "purpose": "官方构建导入UUID旁车；对应 盾牌男.png；不作为画面纹理加载",
+      "bytes": 40,
+      "sha256": "4a0c26525084b2ab9112f2017a631424383add39bf109dae189bd025c715d689"
+    }
+  ],
+  "unknown_assets": [],
+  "missing_assets": [],
+  "forbidden_gameplay_components": [],
+  "absolute_paths_in_game_source": [],
+  "entry_files": {
+    "scripts/main.lua": true,
+    "启动.cmd": true,
+    "启动.sh": true
+  },
+  "pass": true
+}

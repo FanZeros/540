@@ -1,0 +1,106 @@
+零刻：真实Lua全面自测
+结果：通过
+实际命令：/workspace/tests/runtime/UrhoXRuntime /workspace/tests/simulation.lua -tapcode_dir=/workspace -tool_mode -graphicsheadless -nosound -log warning
+工作目录：/workspace/tests/output/simulation_runtime
+运行器退出码=0；实际耗时=49.499秒；超时=False
+完整日志：/workspace/tests/output/simulation.stdout.log
+JSON摘要：/workspace/tests/output/simulation.json
+全运行器峰值RSS(KiB)：677404（含引擎及对抗单测；不等于长测Lua活内存）
+用例数：{"pass": 80, "blocked": 0, "fail": 0}
+通过 config.ten_chapters
+通过 collision.sweep_edges
+通过 collision.ranged_body_contract
+通过 combat.one_slash.melee
+通过 combat.one_slash.ranged
+通过 combat.multi_kill_and_dead_no_attack
+通过 combat.spawn_one_slash_lethal
+通过 combat.dead_player_cannot_slash
+通过 combat.melee_one_hit_death
+通过 combat.shield_one_hit_death
+通过 combat.bullet_swept_one_hit
+通过 combat.friendly_never_hurts_player
+通过 roll.boundary.0.044999
+通过 roll.boundary.0.045000
+通过 roll.boundary.0.045001
+通过 roll.boundary.0.309999
+通过 roll.boundary.0.310000
+通过 roll.boundary.0.310001
+通过 roll.legal_lifecycle_and_wall
+通过 roll.cooldown_prevents_spam
+通过 parry.front_sweep_then_reflect_kill
+通过 parry.body_blade_tie_prioritizes_blade
+通过 parry.rear_body_before_blade_dies
+通过 parry.windup_and_recovery_no_parry
+通过 time.slow_world_player_ratios
+通过 time.bullet_enemy_fx_particles_slow
+通过 input.left_right_cancel
+通过 movement.legal_jump_land
+通过 movement.wallslide_and_walljump
+通过 movement.platform_from_below_and_land
+通过 movement.planned_first_platform_reachable
+通过 movement.no_air_double_jump
+通过 flow.R_only_settlement
+通过 flow.next_restricted_and_ending
+通过 spawn.waiting_waves_block_victory
+通过 spawn.all_four_doors_actual
+通过 spawn.slow_uses_world_time
+通过 FSM.melee_all_states
+通过 FSM.ranged_all_states
+通过 FSM.high_level_multi_shot_contract
+通过 replay.normal_real_timeline_no_fast_forward
+通过 replay.copy_isolation_no_reexecution
+通过 replay.force_capture_does_not_double_accum
+通过 rewind.only_current_level
+通过 rewind.maximum_four_real_seconds
+通过 objects.crate_slash_shards_kill
+通过 objects.barrel_chain_kills
+通过 objects.player_blast_and_roll_protection
+通过 objects.safe_legal_edge_barrel_slash
+通过 objects.hostile_bullet_intercepts_before_player
+通过 objects.chain_respects_vertical_distance
+通过 portal.player_and_bullet_pair
+通过 portal.no_loop_and_height_gate
+通过 portal.player_650ms_cooldown_real_clock
+通过 portal.swept_fast_bullet
+通过 portal.earliest_portal_before_enemy
+通过 portal.earliest_enemy_before_portal
+通过 portal.earliest_crate_before_portal
+通过 FSM.spawn_Idle_frame_duration
+通过 movement.player_FSM_animation_coverage
+通过 flow.final_corpse_completes_before_replay
+通过 time.fixed_step_clamp_and_negative
+通过 roll.integrated_sampled_boundary_normal_slow
+通过 replay.real_time_sampling_30Hz_during_slow
+通过 input.main_nil_actions_focus_recovery
+通过 input.main_focus_loss_clears_buffered_press
+通过 determinism.repeated_legal_input_stream
+通过 stress.direct_array_cap_adversarial
+通过 campaign.legal_inputs.level_1
+通过 campaign.legal_inputs.level_2
+通过 campaign.legal_inputs.level_3
+通过 campaign.legal_inputs.level_4
+通过 campaign.legal_inputs.level_5
+通过 campaign.legal_inputs.level_6
+通过 campaign.legal_inputs.level_7
+通过 campaign.legal_inputs.level_8
+通过 campaign.legal_inputs.level_9
+通过 campaign.legal_inputs.level_10
+通过 stress.longrun_200000_legal_steps
+通过 stress.replay_2700_live_idle_steps_memory
+十关机器人：{"level": 10, "mode": "ending", "total_steps": 81704, "actions": {"slash": 79, "jump": 0, "right": 8532, "slow": 30965, "left": 7663, "restart": 0, "roll": 0}, "high_water": {"trails": 8, "stains": 140, "bullets": 3, "enemies": 12, "objects": 4, "frames": 1549, "fx": 2, "particles": 170}, "no_state_mutation": true}
+关卡结果：{"level": 1, "mode": "complete", "steps": 3637, "retries": 0, "stats": {"breaks": 0, "rolls": 0, "parries": 0, "slashes": 3, "kills": 3, "slowSeconds": 8.225000000000174, "teleports": 0, "steps": 24, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 8.609499999999821, "real_seconds": 15.024999999999787}
+关卡结果：{"level": 2, "mode": "complete", "steps": 5237, "retries": 0, "stats": {"breaks": 0, "rolls": 0, "parries": 0, "slashes": 4, "kills": 4, "slowSeconds": 14.599999999999811, "teleports": 0, "steps": 34, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 10.303666666666619, "real_seconds": 21.691666666666077}
+关卡结果：{"level": 3, "mode": "complete", "steps": 5567, "retries": 0, "stats": {"breaks": 1, "rolls": 0, "parries": 0, "slashes": 5, "kills": 5, "slowSeconds": 15.20833333333311, "teleports": 0, "steps": 39, "blastKills": 1, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 11.204166666666517, "real_seconds": 23.066666666666}
+关卡结果：{"level": 4, "mode": "complete", "steps": 7253, "retries": 0, "stats": {"breaks": 1, "rolls": 0, "parries": 0, "slashes": 7, "kills": 6, "slowSeconds": 21.899999999999398, "teleports": 1, "steps": 37, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 13.00966666666658, "real_seconds": 30.0916666666656}
+关卡结果：{"level": 5, "mode": "complete", "steps": 7487, "retries": 0, "stats": {"breaks": 1, "rolls": 0, "parries": 0, "slashes": 7, "kills": 7, "slowSeconds": 22.508333333332697, "teleports": 0, "steps": 45, "blastKills": 1, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 13.510166666666656, "real_seconds": 31.066666666665544}
+关卡结果：{"level": 6, "mode": "complete", "steps": 9147, "retries": 0, "stats": {"breaks": 1, "rolls": 0, "parries": 0, "slashes": 9, "kills": 8, "slowSeconds": 29.199999999998983, "teleports": 1, "steps": 51, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 15.207333333333558, "real_seconds": 37.98333333333182}
+关卡结果：{"level": 7, "mode": "complete", "steps": 9251, "retries": 0, "stats": {"breaks": 3, "rolls": 0, "parries": 0, "slashes": 9, "kills": 9, "slowSeconds": 29.241666666665648, "teleports": 0, "steps": 62, "blastKills": 1, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 15.60816666666696, "real_seconds": 38.41666666666513}
+关卡结果：{"level": 8, "mode": "complete", "steps": 10849, "retries": 0, "stats": {"breaks": 2, "rolls": 0, "parries": 0, "slashes": 11, "kills": 10, "slowSeconds": 36.49999999999857, "teleports": 1, "steps": 63, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 16.605000000000352, "real_seconds": 45.074999999998084}
+关卡结果：{"level": 9, "mode": "complete", "steps": 10867, "retries": 0, "stats": {"breaks": 3, "rolls": 0, "parries": 0, "slashes": 11, "kills": 11, "slowSeconds": 36.59166666666523, "teleports": 0, "steps": 65, "blastKills": 1, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 16.608500000000557, "real_seconds": 45.14999999999808}
+关卡结果：{"level": 10, "mode": "complete", "steps": 12409, "retries": 0, "stats": {"breaks": 2, "rolls": 0, "parries": 0, "slashes": 13, "kills": 12, "slowSeconds": 44.06666666666481, "teleports": 1, "steps": 75, "blastKills": 0, "reflectKills": 0, "jumps": 0, "dodges": 0, "shots": 0}, "world_seconds": 17.203000000000753, "real_seconds": 51.574999999997715}
+200k长测：{"steps": 200000, "active_steps": 99686, "replay_steps": 99825, "completions": 19, "failures": 1, "high_water": {"trails": 8, "stains": 140, "bullets": 6, "enemies": 12, "objects": 4, "frames": 1641, "fx": 6, "particles": 179}, "memory_max_gc_kib": 66005.6884765625}
+未验证与边界说明：
+仅验证实际 Lua 逻辑，未声称实测画面、可听声音或操作系统键盘投递。
+隔离单测可安排初始场景；十关和200k长测只使用合法动作输入，不改玩家敌人状态。
+引擎启动的Noop界面着色器警告不计入玩法测试失败；全部日志保留。
+Windows启动与resource缺失兼容分支仅编码，未在Windows实测。

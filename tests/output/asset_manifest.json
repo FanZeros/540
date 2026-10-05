@@ -1,0 +1,4162 @@
+{
+  "generator": "tests/generate_assets.py",
+  "seed": 731029,
+  "originality": "全部像素、位图字体、姿势、频谱与音乐均由代码原创，无外部素材",
+  "background": {
+    "size": [
+      676,
+      288
+    ],
+    "ground_y": 246,
+    "door_center_x": [
+      114,
+      257,
+      429,
+      562
+    ],
+    "door_aperture_y": [
+      195,
+      245
+    ],
+    "door_apertures": [
+      {
+        "center_x": 114,
+        "x_min": 99,
+        "x_max": 129,
+        "y_min": 195,
+        "y_max": 245
+      },
+      {
+        "center_x": 257,
+        "x_min": 240,
+        "x_max": 275,
+        "y_min": 195,
+        "y_max": 245
+      },
+      {
+        "center_x": 429,
+        "x_min": 412,
+        "x_max": 447,
+        "y_min": 195,
+        "y_max": 245
+      },
+      {
+        "center_x": 562,
+        "x_min": 547,
+        "x_max": 577,
+        "y_min": 195,
+        "y_max": 245
+      }
+    ]
+  },
+  "assets": [
+    {
+      "path": "assets/Background.png",
+      "type": "png",
+      "width": 676,
+      "height": 288,
+      "frame_width": 676,
+      "frame_height": 288,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            676,
+            288
+          ],
+          "content_bounds": [
+            0,
+            0,
+            676,
+            288
+          ],
+          "last_row_alpha_pixels": 676,
+          "sha256": "1b40012edb495a7910d5f8367ef0798e74e47a4658e2840fbb37ae330752f4c4"
+        }
+      ],
+      "sha256": "28ddf6faa1c10c66c775bb5cdb61c59cb6276ec84034b4db8262463f27f051c4"
+    },
+    {
+      "path": "assets/武士零主角/Idle.png",
+      "type": "png",
+      "width": 360,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            5,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "2e9603512702edcc841e1ee23f45e4705e027edb0c353886a17f081f81a38de4"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            4,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "0b75625d9a24a79d289c35f17689726182c06b4d95ab9b2e3b6b4470276a3a68"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            4,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "fed4f390f1759ceff6fb71b73db28c98875a6bbe60a5540cb36d2d17e3b1808d"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            5,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "e83f593af8af02d0af7a6a5990410e957806a7a115536412162fa3cac3919ab4"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            6,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "1af257ed155b5343b2f1d6c55db06a64e7fa4e1dc6baf756cc7caaf3c728b206"
+        }
+      ],
+      "sha256": "04fa33d1cb794412a05e25f22968a0ef9d400b1f1635d770b60390be3ec7b584"
+    },
+    {
+      "path": "assets/武士零主角/Run.png",
+      "type": "png",
+      "width": 720,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 10,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            7,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "c557c542c9ad825e08d81640547d89f73c166cb85e11f252b9e65dbdc94b4f33"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            21,
+            8,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "646738c3fd3e0217faa860d3345ac6b1d8cddf2268bd3b001dadf0fe0e767333"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            7,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "28fa82e1b69b832b96b9ed06c6d7ef813e0c1eba7cf68e005cf55e8f50305a59"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            8,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "f8af6fe1cc9670285e071780c8ab23fdfa5742644affa3f045cd59cc67d36881"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            21,
+            7,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "baddc3456d52ab786cadaf3c644b7a93e4b465112309f492a6188b205bcc7d17"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            360,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            8,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "f40b4b397f657de832a08e2c79514c0580efadf4cc0abaa7dc4c954096b566bc"
+        },
+        {
+          "index": 6,
+          "rectangle": [
+            432,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            7,
+            52,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "af91d2eacfd8bbd2214c8e9807817c324e9ba4d7e854b32249ba3ee25a44a339"
+        },
+        {
+          "index": 7,
+          "rectangle": [
+            504,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            10,
+            8,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "964d3d575fc360999b503e55ecc419af6efff7675d18f2332b4662bd8a02e62e"
+        },
+        {
+          "index": 8,
+          "rectangle": [
+            576,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            10,
+            7,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "2f6396d731f320cc6fab8d9e05d328cee31cb3d696cf63a3114f0c4d4ef10dcb"
+        },
+        {
+          "index": 9,
+          "rectangle": [
+            648,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            8,
+            52,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "0d48b13ac575bc0ad3ac493913e7f61997c597e990e5ac55cd63d31b00d8d0e7"
+        }
+      ],
+      "sha256": "fe26d2539158c9e01ec66b6e68173b152525accb069657d2f680081741036c64"
+    },
+    {
+      "path": "assets/武士零主角/Prerun.png",
+      "type": "png",
+      "width": 288,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 4,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            7,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "60c267b2a60877c5f75ccc2901f4e02deea3d7c53830d022f572e4219ddf2e43"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            23,
+            8,
+            52,
+            54
+          ],
+          "last_row_alpha_pixels": 13,
+          "sha256": "7cdc66f6e520805932ecfd7859c5db4d610cc99cf7b26e2a159b98866c96e66c"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            21,
+            9,
+            55,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "8190d9c0c51d85a72a22b3ad3c1f22c53695ee2e901170895e2b4756a5ce6996"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            8,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "a380f59349c04668456b5fe1444ab1f1b5f2659f6bd13218fb01a92385c5387f"
+        }
+      ],
+      "sha256": "99679d7d355473f6f0f7abd84baec3fdfdad3c2233e267b6fa0df55b1cb9745f"
+    },
+    {
+      "path": "assets/武士零主角/Stoprun.png",
+      "type": "png",
+      "width": 216,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 3,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 3,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            8,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "e74c55d3ae131869be19ab8b326514aa1bbcd64a1421f6ab8ffffa8301ddc2c4"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            22,
+            9,
+            53,
+            54
+          ],
+          "last_row_alpha_pixels": 17,
+          "sha256": "b530e8dea7dcdfd8954eab0c077fe6ff4c8a48ffbb9b25dc39611aab766466e1"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            7,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "5e80afee836af82a2772fb3670e26c9f560c2c37699c9d5b7636189545b50945"
+        }
+      ],
+      "sha256": "48cb5a05bdc209d90e774d34b9b6e5974e060fa3cedf51f184c92dc0df24ebdc"
+    },
+    {
+      "path": "assets/武士零主角/Jump.png",
+      "type": "png",
+      "width": 720,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 10,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            3,
+            67,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "0c78b4cb1ad6fba947825d73779ba62be393b657e7cc1ff7c799e2325b671d59"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            3,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "7d3fcd25f11d06898d20091cb40a361c96e7fd2f94f9461616e82080fdf1dbfe"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            4,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "99a72f698d69a6b120bc532ec4e524cc346ab5156291c9283f4ab8443edf99cd"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            4,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "1e8f68b7d08f568fd2e77eb99e17857f1eea74285b1d6a6f4a15cb0ba4466a6f"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            18,
+            4,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "a52ea5eb5ae6cfd50613a223a82a052c6862fe9c66d7a1d6d7a5be306c1e1625"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            360,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            16,
+            5,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "e800b1141474ba939449eaf8f99db8d2ccc7fc12ac5d94578391578d33dcab7b"
+        },
+        {
+          "index": 6,
+          "rectangle": [
+            432,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            5,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "8705ecb011087cd6a121cdeaee7c28527f4ce905c7e31bd950e593e2bf1e5bf7"
+        },
+        {
+          "index": 7,
+          "rectangle": [
+            504,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            5,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "3e381ef55bf5f5ff7ba7be52177531ed6a33a2ac50f3fe2f7ebabae455a6b4ae"
+        },
+        {
+          "index": 8,
+          "rectangle": [
+            576,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            15,
+            6,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "13e8530bbf9aa818677a4b8b1be35e4d85c8a74d83b0b7681a26e481fa1c3666"
+        },
+        {
+          "index": 9,
+          "rectangle": [
+            648,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            6,
+            66,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "3c1c6eecd6f1a2de92859ee81853a1d76dab038ca0367f6aa432bc8b28ca0f37"
+        }
+      ],
+      "sha256": "912c5c86b68f689f3dc681c7aed91e7ebc757655b23a929ef5364fe68cde4f93"
+    },
+    {
+      "path": "assets/武士零主角/Land.png",
+      "type": "png",
+      "width": 144,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 2,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 2,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            14,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "6e8e197712d9ec0cbd6809801121198d4db72f9e76e72ccc495d9a5868c93580"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            10,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "057475ec0ec3bc76a22fe3005c3889952313d6d89069513ef7950bbcd252b7f8"
+        }
+      ],
+      "sha256": "01d6ef73161478330080b693393681fc2e3644bc28ca30d4cf8beac38c1f92c6"
+    },
+    {
+      "path": "assets/武士零主角/Roll.png",
+      "type": "png",
+      "width": 504,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 7,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 7,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            18,
+            26,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "828958cc45aebc1eab645701df13e4a92b49497769f033940738052c3304adb3"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            25,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 10,
+          "sha256": "a407d05d474fa46827cbb87c1a68991d87918489e321fd9e19a8b09c71c95855"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            26,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 10,
+          "sha256": "64016dd22ad8c99bcb188f25fb19a07f3377c32f42513a11179de30f8999cd6e"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            26,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 17,
+          "sha256": "5780dabdde2d04492ab32267d4ae5208ab9bdfffda1875cf6b70d0698f58f882"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            24,
+            26,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 15,
+          "sha256": "9e4c526288690ea377103c0822b5641a0b8e594fccc369aaedcc6c9779fd97b1"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            360,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            27,
+            29,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "8027807528c4c41a8937e39aefb203a276f8333cc22c27ca4ffc392381a77f32"
+        },
+        {
+          "index": 6,
+          "rectangle": [
+            432,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            23,
+            27,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "0d49ef73f61352f6f00e6f110e94f3ef95c0850e60f0a8161c82dac2944ec96e"
+        }
+      ],
+      "sha256": "5d43cbd19b630c7de8cc24f1833972184164b93189bac4f499e33cac2f088189"
+    },
+    {
+      "path": "assets/武士零主角/Slash.png",
+      "type": "png",
+      "width": 360,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            1,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "c8c43ca726dcd609c2aef6d17d385fc15d767174361a7138d9aff2beffbf17ce"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            1,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "3ad8420363a99502966bb76081012948592b55b96ad00ec1be5bcbad35d625f8"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            7,
+            70,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "f6d3ac87bba68b6c9e88a4b5d31eaf923c01b5819861a21b7af637cf23d48cd8"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            8,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "f483f19289c6f412f1b52d845ec8dd2a18843664845f347e6c9abb438fec7321"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            20,
+            7,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "3713591f29b9d05afdb3f71e8a7ec0d9dc8cac7df43a231946722037a9b6fa7f"
+        }
+      ],
+      "sha256": "29c8be042b261c6410254d44ce58a8123d539e7e5e2cab01ebb3d317060815c2"
+    },
+    {
+      "path": "assets/武士零主角/Squat.png",
+      "type": "png",
+      "width": 216,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 3,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 3,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            11,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "ed6aaee01d91ee0c99d2d8e5c2fe0f3384c41c6a70a5aaa97e08ee0de8ff4cba"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            16,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "1118f45df09b930ced57a78c4b943b3e398c25b2aea8eae19012424e826b1dba"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            19,
+            13,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "7736b752c163656b683445d663d38c5033be282bc25dd9733aadff018eee67fd"
+        }
+      ],
+      "sha256": "765536740fa18fbcb227e37c17955e99df99e29f53430c6f909c5095ebb028fc"
+    },
+    {
+      "path": "assets/武士零主角/Wallslide.png",
+      "type": "png",
+      "width": 72,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            21,
+            5,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "c1b371ef56fcb6c2b7a099f414dcecc62753314691de1d31c89fa97288840dea"
+        }
+      ],
+      "sha256": "69fe489fe1c8a2723a211b450bfda1282b983932738d57eaf3b512313b1f508e"
+    },
+    {
+      "path": "assets/武士零主角/Hit.png",
+      "type": "png",
+      "width": 432,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 6,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            17,
+            10,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "41d7ee26105e08a4a937cf3f373b02b05ec0afec9f7c0a072484fff9220d3225"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            17,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "9704383d53fe047e34b5c02c68b493586ce474097d7356044f4869ab1bfd57dc"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            11,
+            24,
+            51,
+            54
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "d367951de25ea403fc9dd712b30f7fe617cac4f119ffcd5165e97e59edcd5486"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            39,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 42,
+          "sha256": "2cbcce164f2d1cd8d6ef988346daa92fea7771c34c36a684d90479092a55eb9b"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            40,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 43,
+          "sha256": "186e2745f16f263f01191c132ab45c899cd7ed037997dabc4ee91c8c8958de1d"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            360,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            41,
+            69,
+            54
+          ],
+          "last_row_alpha_pixels": 43,
+          "sha256": "f8714d4a67c7244d3d894a4be89a76b0a589277802424ebd810ed6f7f57373a5"
+        }
+      ],
+      "sha256": "26c986574f4d31065259a5c92570f16fa70e499eb8e5958bb655ab098ffecd35"
+    },
+    {
+      "path": "assets/大壮动作.png",
+      "type": "png",
+      "width": 3168,
+      "height": 54,
+      "frame_width": 72,
+      "frame_height": 54,
+      "frame_count": 44,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        36.0,
+        53
+      ],
+      "unique_frames": 44,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            59,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "c9a5dfef7ec8dfd9665ee105eedb7b660a83b4603b404c3131c896c486501112"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            72,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            60,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "e4e1ee347556e381ef78925d8f3fa7c18f2b01bbc753b8cbbadd7d7355a09144"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            144,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            2,
+            60,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "af6081febcb2cbfc4a8c637f98b0db9f5f71370158ac8bcd87eb9c0427d48e0d"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            216,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            59,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "a00d3fc2417898b2dab412ac6bfc1b7fcbe96817ab1a656bdae85c630f8b3992"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            288,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            5,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "5d801416080d5eddf096ec52c8eb0edc665b65e3506c179f367fd1dec08071d5"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            360,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            4,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "8c0f675ad186f26a4413a4b1dede522dafb33197dc0a08d64f8bb31e5c85d823"
+        },
+        {
+          "index": 6,
+          "rectangle": [
+            432,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "de75b7004f35632ab15f452e3702dc3d7164ae211067e7bb56c1d1a3c4f3cd6a"
+        },
+        {
+          "index": 7,
+          "rectangle": [
+            504,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            4,
+            55,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "2f0c662d489e9b02b8df566d2b598e25f32c2508cb2070345c9ec1c6a68cce08"
+        },
+        {
+          "index": 8,
+          "rectangle": [
+            576,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "857380309da019c03604d53d48b37133257a36719c6cde4d9845e2397c3eb4a0"
+        },
+        {
+          "index": 9,
+          "rectangle": [
+            648,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "f955e38833c9ac1a21302ce0ebfb310def633157e1013f56760acc1c30246e25"
+        },
+        {
+          "index": 10,
+          "rectangle": [
+            720,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            4,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "4b1a900de8b7abe7e7a1892edc2f5a5b58eb49c3119dc4058b0929afa2634a26"
+        },
+        {
+          "index": 11,
+          "rectangle": [
+            792,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "1e9cbb77b77edec9eb5a3a1642b74ef49a88f1d553a19329d79d71927260b63f"
+        },
+        {
+          "index": 12,
+          "rectangle": [
+            864,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            12,
+            3,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "0db61a46f46353309a01999fd29f31e7ef216c62343fa58e93bcd6f67b6f67f7"
+        },
+        {
+          "index": 13,
+          "rectangle": [
+            936,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            3,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "f3d68c790a99f429925db9e1a84de7547a78066c6a3273a19b183fe6924925c8"
+        },
+        {
+          "index": 14,
+          "rectangle": [
+            1008,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            6,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "200de51eb6ce153714c57f8fdd040041ff2d47281a8d88fd2881b880de3097d2"
+        },
+        {
+          "index": 15,
+          "rectangle": [
+            1080,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            7,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "d5458455448d60768a7794671403951b079e81e845cfd348df69ecd3bb76c080"
+        },
+        {
+          "index": 16,
+          "rectangle": [
+            1152,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            8,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "d19071b26f9c3d781c080a22ee0011ec71e16ff27ca297c8087101367ad97651"
+        },
+        {
+          "index": 17,
+          "rectangle": [
+            1224,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            11,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "21353087d2f917f19a64dc4c95b1b0cd80e29a536314661170a0421c3d35ebfc"
+        },
+        {
+          "index": 18,
+          "rectangle": [
+            1296,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "2f889f2cfc6c683de9b7834497c92bbbef10848c3dd9f4b828a400946ea82eca"
+        },
+        {
+          "index": 19,
+          "rectangle": [
+            1368,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            4,
+            71,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "1cb313a8ec49fb255d41d3e0d243e855688c9730861356f37786e562b568a80e"
+        },
+        {
+          "index": 20,
+          "rectangle": [
+            1440,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            72,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "b53a712493c509a5feb1b11719bdb2489c108bd8669deacc2a794828b8f48a61"
+        },
+        {
+          "index": 21,
+          "rectangle": [
+            1512,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "8a7ea291e2404b5a955217ae188c9f8f165e90d4a793920e3a7a6701d0b6e027"
+        },
+        {
+          "index": 22,
+          "rectangle": [
+            1584,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            11,
+            60,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "290ac3a2af149bc326d7c9b09d0caab5df6f0f8099d08ef949209a3708ab291e"
+        },
+        {
+          "index": 23,
+          "rectangle": [
+            1656,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            18,
+            60,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "87cfb49043a060008d01477495f1b81d6939baacfa948e880ee2edfe8cc24a66"
+        },
+        {
+          "index": 24,
+          "rectangle": [
+            1728,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            7,
+            41,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 50,
+          "sha256": "8f206d0c5da109f26ac7db43d2d1f893f0cd649a94ca14aabab80d69bb7a3b79"
+        },
+        {
+          "index": 25,
+          "rectangle": [
+            1800,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            7,
+            42,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 50,
+          "sha256": "66aab1b6db9337c1d17b216186b4f5bf8308761cfdbd9c19879a7e7b9b044c70"
+        },
+        {
+          "index": 26,
+          "rectangle": [
+            1872,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            7,
+            42,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 50,
+          "sha256": "e1a929deb33e3e34d35f5737d07f0bce869838c48e67ce0e55d9e22dc2788496"
+        },
+        {
+          "index": 27,
+          "rectangle": [
+            1944,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            7,
+            43,
+            64,
+            54
+          ],
+          "last_row_alpha_pixels": 50,
+          "sha256": "66fbbc345d195ec02410642d53b161d2bc85a829432266865c768e2f7a97d490"
+        },
+        {
+          "index": 28,
+          "rectangle": [
+            2016,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "0cd65fce7c84c39ed3ba86e4c869bd47769cb0605ac343dd23e93678bc5d19d1"
+        },
+        {
+          "index": 29,
+          "rectangle": [
+            2088,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            11,
+            4,
+            61,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "b32a2515d6e97836b90de4fcd5f9fb5cd315d1f6d7a65a98d055a3e6a5b41d9c"
+        },
+        {
+          "index": 30,
+          "rectangle": [
+            2160,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            3,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "93db10796898fe08aee0d83f31c84f1ea6d70a35055ddb3d577d519b907fd3e3"
+        },
+        {
+          "index": 31,
+          "rectangle": [
+            2232,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            9,
+            3,
+            63,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "4d13cf0f480efd2e4d65aa9c1384ab45cb7a661832dc8297eefab4293dcbb819"
+        },
+        {
+          "index": 32,
+          "rectangle": [
+            2304,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            11,
+            4,
+            61,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "f2c3f98e7c31ec70bfc2ae324eb5fd5145b89d579b8495932fe3253744cc5854"
+        },
+        {
+          "index": 33,
+          "rectangle": [
+            2376,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            3,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "dc2436aea9be7b17134cb1a415c0c14c83fedc56b4803de4f0d764e65bba2776"
+        },
+        {
+          "index": 34,
+          "rectangle": [
+            2448,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            3,
+            57,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "9e5c93dd38ddb874a3fa84acab40c1cfbfe1ee065d01512712335f7c87f68d4e"
+        },
+        {
+          "index": 35,
+          "rectangle": [
+            2520,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            4,
+            56,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "16ed042972004537a83e70ef4b8871f95ec8fba031c872f5ce9c5c5a410eb9dc"
+        },
+        {
+          "index": 36,
+          "rectangle": [
+            2592,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            3,
+            56,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "4db9fba62e1e0c070f9342fd431d2e122c4bd99daa0f3e5b79e7eb2d2448b6d5"
+        },
+        {
+          "index": 37,
+          "rectangle": [
+            2664,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            3,
+            57,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "b6f73cf324bf66a8def13df7dd2a9c0f2107a3a750589ed0584925e844d7e7a8"
+        },
+        {
+          "index": 38,
+          "rectangle": [
+            2736,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            4,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "d7f115e70e9f92cdaaaca35ee6f4d2cfc6614764017f2b71df918b6fccb9ade6"
+        },
+        {
+          "index": 39,
+          "rectangle": [
+            2808,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            10,
+            5,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "b14bf38e9da83ad62dff99462f3370a11dd4c394c43fc558ad3d7005b000ee73"
+        },
+        {
+          "index": 40,
+          "rectangle": [
+            2880,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            10,
+            4,
+            62,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "c356e76a348358ee925c7442c3308fa5f8813ff7a8589b9b612867be39a8051a"
+        },
+        {
+          "index": 41,
+          "rectangle": [
+            2952,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            13,
+            4,
+            58,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "279372a749f1a619fe7dbe502394a6d78d40a3387c5d8e132a7558ce97882685"
+        },
+        {
+          "index": 42,
+          "rectangle": [
+            3024,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            5,
+            57,
+            54
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "056548db5c74efafe9e6f73110ae0b1a7c2351d36102ce3ac441472270d756e2"
+        },
+        {
+          "index": 43,
+          "rectangle": [
+            3096,
+            0,
+            72,
+            54
+          ],
+          "content_bounds": [
+            14,
+            4,
+            57,
+            54
+          ],
+          "last_row_alpha_pixels": 11,
+          "sha256": "29572a9ff39182405da7f3b45f941db6cb72809c66076f87594d64a8daf65b00"
+        }
+      ],
+      "sha256": "40b5bc21c92455fb72a3585ebbde970e8fae9b0884da09d3cac510bdade840c6"
+    },
+    {
+      "path": "assets/盾牌男.png",
+      "type": "png",
+      "width": 2754,
+      "height": 44,
+      "frame_width": 51,
+      "frame_height": 44,
+      "frame_count": 54,
+      "layout": "single_row_no_padding",
+      "foot_anchor": [
+        25.5,
+        43
+      ],
+      "unique_frames": 54,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "17edfb22708df4c42ffb09780b65905441f61073f5f2dcf4d36ee160800acd7f"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            51,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "e3cd15b39d199d7d737f3fc1af44d4efcc7a896118160d0eb9718a0a1fd7ff6c"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            102,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "baa1f4b754a1fcb6774a7f9a71a2e790943c945b610b53be06d3dbba960f75bd"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            153,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            1,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "eea0c2861b0b39cc28f7ee3c457270d50478c61a446e2b35ea7def37d13c3589"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            204,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            1,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "66d9859bd6fc3906981274762e60c804bcb5f06e1f24f067a76eccd5a7067f7a"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            255,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "41e8960f15c274bcd4105988566103114c95abb119e32225b66e3e11cac72b3d"
+        },
+        {
+          "index": 6,
+          "rectangle": [
+            306,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "88683adfc45c796020e3f302dddf5cbbf71560cf317175c941a67bb3e9f4ee58"
+        },
+        {
+          "index": 7,
+          "rectangle": [
+            357,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "86b6544b05c4ef1574b1451d2bd47eb8769d22177ff43d7e4be4c1c75752bfa2"
+        },
+        {
+          "index": 8,
+          "rectangle": [
+            408,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            3,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "41bf604b78c2ecd699335c52d03427e95d98f29bb770e2f22a8434e9693da899"
+        },
+        {
+          "index": 9,
+          "rectangle": [
+            459,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "82405ea682cc10752000aacc7a51a632833c3c1ceb1268ccbc7d6fc291d4cae9"
+        },
+        {
+          "index": 10,
+          "rectangle": [
+            510,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            41,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "a400ce42f60bc8dde6c5dea93a0faaebd268bdef07bf07e5c6728a961cabf3e2"
+        },
+        {
+          "index": 11,
+          "rectangle": [
+            561,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            44,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "039b8ad91feaa140e3a9e666d47d3fa2f28adc9c8e365431cc9014ad8a0ea1a0"
+        },
+        {
+          "index": 12,
+          "rectangle": [
+            612,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "f438b37a1577f4636a4724779cb2c3a053bdf247d224f2e1876d3fdd38c106fa"
+        },
+        {
+          "index": 13,
+          "rectangle": [
+            663,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "763e501b2fa73f7d15498bf849455ddece3fba165df76f0548db0582dc4ac931"
+        },
+        {
+          "index": 14,
+          "rectangle": [
+            714,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "42ceabad206260d6875105d234bb3c5951dc13918e474433eb0a51218901d40b"
+        },
+        {
+          "index": 15,
+          "rectangle": [
+            765,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "049da6281947084cc71fcd209b237f2259433f40110c1e8a3a9e4ff1228fbe4a"
+        },
+        {
+          "index": 16,
+          "rectangle": [
+            816,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "3c328c1a8688c8d4ca04db7f0f129633ce0d34d09c0983a8dfcded060d72fd6c"
+        },
+        {
+          "index": 17,
+          "rectangle": [
+            867,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            3,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "27fbd40e4278ac10b7f2c2960604579970b9c93fe99f4910106731741b953f34"
+        },
+        {
+          "index": 18,
+          "rectangle": [
+            918,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            49,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "dc4d54e2b47c1106788a394e1d38c75010d8954c435490f19911974c255bfb6a"
+        },
+        {
+          "index": 19,
+          "rectangle": [
+            969,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "859473f0cd51bd40f2563dab0d141fdde6085e7cdc689a690b009dc160bf3186"
+        },
+        {
+          "index": 20,
+          "rectangle": [
+            1020,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            49,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "3174c059b56c707185d8230e4ab5ef4e75469120a90d37f83bdaf8ef64070a62"
+        },
+        {
+          "index": 21,
+          "rectangle": [
+            1071,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            2,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "88e2d1a28e6fab953a662dd8cca6618280d71428905697244e7060bbbeb0682c"
+        },
+        {
+          "index": 22,
+          "rectangle": [
+            1122,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            3,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "14408ab66ea7fa11b934652d7c5475dda945480f57c82c9d88ce2d13e3687c24"
+        },
+        {
+          "index": 23,
+          "rectangle": [
+            1173,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "dda4777d7e4b9dce1aa891a464be0ab4f021ae36c7ba6fe8fadd3ecb1f39d39f"
+        },
+        {
+          "index": 24,
+          "rectangle": [
+            1224,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            49,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "0ccf103c55c5c00cbd00619a22db4814f33e72f78f8a2d8662d489845917115b"
+        },
+        {
+          "index": 25,
+          "rectangle": [
+            1275,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            2,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "27a15828b1aa6dcf996381cdf32f09a56c4d3e4ae65383088f8d637dc4ff9f8f"
+        },
+        {
+          "index": 26,
+          "rectangle": [
+            1326,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            3,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "3b66dcb6302bc188829ae46f5984c8226a9dd5d26c7f45e88cb9ebbc244cf06e"
+        },
+        {
+          "index": 27,
+          "rectangle": [
+            1377,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            49,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "7363ae9d0125dd744b7e999db2d2f1385343b14f3b6fb58d3808c26e4ccb71fe"
+        },
+        {
+          "index": 28,
+          "rectangle": [
+            1428,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            48,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "31e0a381477cc72499ea947de192fec5e9b7d20b54908a0389912ba01b201974"
+        },
+        {
+          "index": 29,
+          "rectangle": [
+            1479,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            47,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "5c6ed35d87243467c4a79733d3acc439982fcd59b4949bae78a195a50479c1fc"
+        },
+        {
+          "index": 30,
+          "rectangle": [
+            1530,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "5f02310ba4ae0737b11f16a96994be7dbb37257c27b21da5094014652859d2d2"
+        },
+        {
+          "index": 31,
+          "rectangle": [
+            1581,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            11,
+            5,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "9311db0dc63e79362e637c8dac5d110296d63a44520ec15153548683a0709f86"
+        },
+        {
+          "index": 32,
+          "rectangle": [
+            1632,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            9,
+            44,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "ef5f1f9ff981c75b4218ce2e0c3bad26580ba161a483c87c8ac7bdb28b1a1299"
+        },
+        {
+          "index": 33,
+          "rectangle": [
+            1683,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            9,
+            11,
+            43,
+            44
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "01409fe7729bc6c6caa25cf4f86b518889f070a5f3c154fa852fc77207a68eeb"
+        },
+        {
+          "index": 34,
+          "rectangle": [
+            1734,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            4,
+            33,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 37,
+          "sha256": "b47a68398be4d84ec895955ad59b29b3202f48fff2f13351ac1a726aa78b433d"
+        },
+        {
+          "index": 35,
+          "rectangle": [
+            1785,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            4,
+            34,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 37,
+          "sha256": "4dd6d1e227b83af893a6056084fb4101a51ab65cb69b064f037845f9b6d148e8"
+        },
+        {
+          "index": 36,
+          "rectangle": [
+            1836,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            4,
+            35,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 37,
+          "sha256": "7696745381cde7d48c67d02f00021b9d457beb2cae6de187fac252a7d636dcbb"
+        },
+        {
+          "index": 37,
+          "rectangle": [
+            1887,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            4,
+            36,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 37,
+          "sha256": "47b95c45b9d7b5dca08966f01e66e81f4e88235ea6fa75298e65aedbbd49ed21"
+        },
+        {
+          "index": 38,
+          "rectangle": [
+            1938,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            4,
+            36,
+            46,
+            44
+          ],
+          "last_row_alpha_pixels": 37,
+          "sha256": "e276af1578aa4b8f2b500a181635e3b631e85d0d814cdeb79079b53706cf70c3"
+        },
+        {
+          "index": 39,
+          "rectangle": [
+            1989,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "ab4c4068b04f07e34eb99657f9ef7848834e93424027760fc63feaf41ee916d8"
+        },
+        {
+          "index": 40,
+          "rectangle": [
+            2040,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "4c4a44af22c4cb882ec8804db62d4d23eeda5bd08fbc01551922d5cd0c0a162a"
+        },
+        {
+          "index": 41,
+          "rectangle": [
+            2091,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            3,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "302c5beddb1aa3ca1afd9d03aa0d7de03de4250ba1a58357fbe616aa4908a44c"
+        },
+        {
+          "index": 42,
+          "rectangle": [
+            2142,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 17,
+          "sha256": "d2aac9b22c9741672b4cfdda336cc1124e355a8d9fbb1660b8253ff4956d2443"
+        },
+        {
+          "index": 43,
+          "rectangle": [
+            2193,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            13,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 17,
+          "sha256": "63416b298fd4a1589f9e28f88149a14b9d87fb01d31eaddfd52427fbda67f2b2"
+        },
+        {
+          "index": 44,
+          "rectangle": [
+            2244,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            10,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "1cdeb46a626e775cab4fdd7fb93894a31e62964f138f08c0e1dd7fccb2502e43"
+        },
+        {
+          "index": 45,
+          "rectangle": [
+            2295,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "c8882b8e68fe90f49ca3991497e9922cfb18d90a2f4a26bd2fa88e33e5f5fcfd"
+        },
+        {
+          "index": 46,
+          "rectangle": [
+            2346,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "20c03c915b5b410eac23481026f9cddbae3c589bf5d4638b710977853bc74816"
+        },
+        {
+          "index": 47,
+          "rectangle": [
+            2397,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "55139421daecac52587c99fa4b496ca74e5a3901535c0626d4d1a70b7e8911b2"
+        },
+        {
+          "index": 48,
+          "rectangle": [
+            2448,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "53651f958d00be1caf1ac98e5392eaac2e9a416f2bc6363dbcdce47327cdecf5"
+        },
+        {
+          "index": 49,
+          "rectangle": [
+            2499,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "513ce30f6ef08529afe393b554575ee938d06e7a7025909bd1dfc761b286a8da"
+        },
+        {
+          "index": 50,
+          "rectangle": [
+            2550,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "d29dedea1fee640babf1a24639ee7d7888d18aed211a8647c0627cbf55834ba9"
+        },
+        {
+          "index": 51,
+          "rectangle": [
+            2601,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "a4a80e9b1ff31fce5e4e350284162c607b019c2ad314b199a7eee0dd879c1c50"
+        },
+        {
+          "index": 52,
+          "rectangle": [
+            2652,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            3,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 18,
+          "sha256": "7a743a06721707454f40e4f2db382aa4f4b1eb5546499a27466be87e3a496210"
+        },
+        {
+          "index": 53,
+          "rectangle": [
+            2703,
+            0,
+            51,
+            44
+          ],
+          "content_bounds": [
+            12,
+            2,
+            45,
+            44
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "eaa5e0144f8008f399a4bbcda5b021d2eb561ba8c8bed9eb670f3af235de22ba"
+        }
+      ],
+      "sha256": "22cbfe49fad628c336e8e4fae57ef6518ade6ae880c08453570f088e1ddb6f4d"
+    },
+    {
+      "path": "assets/VFX_Jump.png",
+      "type": "png",
+      "width": 270,
+      "height": 54,
+      "frame_width": 54,
+      "frame_height": 54,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            5,
+            15,
+            52,
+            54
+          ],
+          "last_row_alpha_pixels": 36,
+          "sha256": "01ff5def2d5bab35f7e15ec5b18644c3572f9d7c8af2b423dc8373bc59b17c0f"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            54,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            0,
+            14,
+            53,
+            54
+          ],
+          "last_row_alpha_pixels": 44,
+          "sha256": "9fe0a2638e7ad1d9e4acebf9477c5d2d3a4459ad3bed78cce30996b505ee686b"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            108,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            3,
+            20,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 51,
+          "sha256": "c84934178fc50570c534c8143f562885236d74afc5d94fcd81a4c87c912ce1e9"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            162,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            0,
+            16,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 53,
+          "sha256": "a1c708af92890f392fc282d7d4b4d58c2a86fbbee553a1fb841b6ccf8567262c"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            216,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            0,
+            12,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 54,
+          "sha256": "683a40d6d54edaec19608edd2c4449c37ab874651d27b1c4eae67a2e88ba5e6a"
+        }
+      ],
+      "sha256": "40ded7b267f38b86e21d98fa59589d9831b73c07478f6af4df6df106a6520ac0"
+    },
+    {
+      "path": "assets/VFX_Land.png",
+      "type": "png",
+      "width": 108,
+      "height": 54,
+      "frame_width": 54,
+      "frame_height": 54,
+      "frame_count": 2,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 2,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            1,
+            32,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 41,
+          "sha256": "a8660bd5375d12641166054419bc80ada5d871dcc17e3032059fc4860e9b64b0"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            54,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            0,
+            38,
+            54,
+            54
+          ],
+          "last_row_alpha_pixels": 54,
+          "sha256": "a7bc962e21d6f6f25a8746295fa3386ed1a88dff982a32e9c67ea018e518ec83"
+        }
+      ],
+      "sha256": "b816542ce2efb40051240e6a0f99826ab2e17dfe63e8dfbf2aabe938d425bce4"
+    },
+    {
+      "path": "assets/VFX_Roll.png",
+      "type": "png",
+      "width": 144,
+      "height": 24,
+      "frame_width": 24,
+      "frame_height": 24,
+      "frame_count": 6,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            2,
+            22,
+            24
+          ],
+          "last_row_alpha_pixels": 14,
+          "sha256": "d2599f6ee79e4f17369a15205e3aea3c79de116dd170dd04c88cfbcc0d00656e"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            24,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            1,
+            24,
+            24
+          ],
+          "last_row_alpha_pixels": 7,
+          "sha256": "1009fe8f543f159d3efb88161d152b94d516961f3e1775c4413df9851259d587"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            48,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            0,
+            24,
+            24
+          ],
+          "last_row_alpha_pixels": 15,
+          "sha256": "7ba8f7fb0991d472a094beec6689020f996a797740ff25b9b00a37eda5079a0d"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            72,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            0,
+            24,
+            24
+          ],
+          "last_row_alpha_pixels": 22,
+          "sha256": "3b6c82320c9cc96d3ed100dcb963957c3cb3f5b4b2d03089b07ef322da136598"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            96,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            0,
+            24,
+            24
+          ],
+          "last_row_alpha_pixels": 17,
+          "sha256": "349bf570e7c05a5d4fa67235353a799de263fe3b7c5d5d2b7af06390d41bc297"
+        },
+        {
+          "index": 5,
+          "rectangle": [
+            120,
+            0,
+            24,
+            24
+          ],
+          "content_bounds": [
+            0,
+            0,
+            24,
+            24
+          ],
+          "last_row_alpha_pixels": 21,
+          "sha256": "9229db08b5e5cb1e983ffca033738867d22cab4a4bf6d024b5a912b86b84791f"
+        }
+      ],
+      "sha256": "5ad1babdd80f4f32d1ee39fbd31c07d603a899854dbff53a1e64d45ffeb0fb3f"
+    },
+    {
+      "path": "assets/VFX_Slash.png",
+      "type": "png",
+      "width": 490,
+      "height": 36,
+      "frame_width": 98,
+      "frame_height": 36,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            98,
+            36
+          ],
+          "content_bounds": [
+            0,
+            0,
+            97,
+            36
+          ],
+          "last_row_alpha_pixels": 8,
+          "sha256": "799e7a3ef26ce16bb64df7da1fcdd8564f4bf76cd5c7d837cce77c957692793d"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            98,
+            0,
+            98,
+            36
+          ],
+          "content_bounds": [
+            8,
+            0,
+            98,
+            32
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "14eb878097e7d189262d360e80a2e1014a70e6f1a887f40c8735ab170e0b2572"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            196,
+            0,
+            98,
+            36
+          ],
+          "content_bounds": [
+            8,
+            0,
+            98,
+            36
+          ],
+          "last_row_alpha_pixels": 9,
+          "sha256": "fd9d0e6a7e1915748cb47b37332b78a9069ab635c8b2d3783b579d3ff23404e2"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            294,
+            0,
+            98,
+            36
+          ],
+          "content_bounds": [
+            8,
+            1,
+            98,
+            36
+          ],
+          "last_row_alpha_pixels": 57,
+          "sha256": "8077b22cd03c818c7c7189280c1d66d5c8e5224c36768c75b609e9f9dbe23ff1"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            392,
+            0,
+            98,
+            36
+          ],
+          "content_bounds": [
+            8,
+            0,
+            98,
+            36
+          ],
+          "last_row_alpha_pixels": 51,
+          "sha256": "97ff3b3ebd68e19ad5348d094e459bc4b16c8aa9c09f63b1e667233cbc0c2080"
+        }
+      ],
+      "sha256": "2fe5274e69befa2d0a5e58d8219e7482832b2468707eaafa3646631751b405fb"
+    },
+    {
+      "path": "assets/受击特效.png",
+      "type": "png",
+      "width": 400,
+      "height": 54,
+      "frame_width": 80,
+      "frame_height": 54,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            80,
+            54
+          ],
+          "content_bounds": [
+            14,
+            10,
+            51,
+            44
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "68c6609273c58933d84d819c0beb0777730877ae38fd41dd850205e2197291c2"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            80,
+            0,
+            80,
+            54
+          ],
+          "content_bounds": [
+            14,
+            9,
+            58,
+            47
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "719b291d320e4c691e22e2f7272b190a4dd10e692af02048b85dd15546104f03"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            160,
+            0,
+            80,
+            54
+          ],
+          "content_bounds": [
+            14,
+            7,
+            63,
+            49
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "d0aea62f5fe383417dbc2fd844921723df3d5378dfd53949d6ff2bc4ae0a284d"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            240,
+            0,
+            80,
+            54
+          ],
+          "content_bounds": [
+            23,
+            13,
+            65,
+            54
+          ],
+          "last_row_alpha_pixels": 7,
+          "sha256": "c6bc2b1a1a0df931ad34b01c41bb8087af8796442ea13a731b981c3613e99df5"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            320,
+            0,
+            80,
+            54
+          ],
+          "content_bounds": [
+            26,
+            20,
+            73,
+            54
+          ],
+          "last_row_alpha_pixels": 26,
+          "sha256": "3d491db99dab3706a0a7776dbcf111b5ceee92005ab9665a6e02f8e66092dda4"
+        }
+      ],
+      "sha256": "f61c3d5c1361942c9fa5116d04e51d16f638d0dc157cd57ecc5bd39ca2b6eeab"
+    },
+    {
+      "path": "assets/大壮攻击特效.png",
+      "type": "png",
+      "width": 162,
+      "height": 44,
+      "frame_width": 54,
+      "frame_height": 44,
+      "frame_count": 3,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 3,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            54,
+            44
+          ],
+          "content_bounds": [
+            6,
+            2,
+            54,
+            43
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "a5f555cac70812f9ba9841e28986726f4746bc2896019d7a51e157ac714b5512"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            54,
+            0,
+            54,
+            44
+          ],
+          "content_bounds": [
+            2,
+            0,
+            54,
+            44
+          ],
+          "last_row_alpha_pixels": 15,
+          "sha256": "f4b100d42248ca0edd3115e165e8c85860a6050021a78f00c0a85ddeba609438"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            108,
+            0,
+            54,
+            44
+          ],
+          "content_bounds": [
+            7,
+            0,
+            54,
+            44
+          ],
+          "last_row_alpha_pixels": 19,
+          "sha256": "9a267eeffd2c6a999552c2e7bf64f63907b4eee78c0df76ca3146dfe3736c531"
+        }
+      ],
+      "sha256": "b9aaa248f771b2222f2c82d4755d6f85030221a83cef064a239d580612646aec"
+    },
+    {
+      "path": "assets/射击特效.png",
+      "type": "png",
+      "width": 270,
+      "height": 54,
+      "frame_width": 54,
+      "frame_height": 54,
+      "frame_count": 5,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            0,
+            6,
+            48,
+            49
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "7a7dceee50bbde1578215475b16d69783f0b902d20990d2a5e2f8ad7d3f25e7b"
+        },
+        {
+          "index": 1,
+          "rectangle": [
+            54,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            4,
+            8,
+            54,
+            48
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "b9656fdc44c86ab09b5be23a2591a593e63b5531a1ec2e4ccd889bea2ca9516c"
+        },
+        {
+          "index": 2,
+          "rectangle": [
+            108,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            7,
+            2,
+            48,
+            47
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "013937b4a723f4afcaaa78f461bd48b7046e134812e1d63ef42c2fcbab0fe14d"
+        },
+        {
+          "index": 3,
+          "rectangle": [
+            162,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            7,
+            0,
+            48,
+            42
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "78d06b095d46727f5b87976309189a2839545af3bd0e97f7f2ebcf1d0b67e577"
+        },
+        {
+          "index": 4,
+          "rectangle": [
+            216,
+            0,
+            54,
+            54
+          ],
+          "content_bounds": [
+            7,
+            2,
+            44,
+            50
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "4b98b2e7812086a2cc870217991270ccb3047ca10eeb1daf0f7b04a24c9a5891"
+        }
+      ],
+      "sha256": "f7ee6e7354a97ba96e85c06f783e219dba2f2033576f1b4f3e69295e78fe53be"
+    },
+    {
+      "path": "assets/Bullet.png",
+      "type": "png",
+      "width": 16,
+      "height": 8,
+      "frame_width": 16,
+      "frame_height": 8,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "content_bounds": [
+            0,
+            1,
+            16,
+            7
+          ],
+          "last_row_alpha_pixels": 0,
+          "sha256": "797eae441ef62a76e7d0b4966c015d514de32acabd09a9dab12ed714b541563f"
+        }
+      ],
+      "sha256": "32616edb98a7c759baa523d237eef1ccadf2ca3436267d082b5bb6b6182c3ad9"
+    },
+    {
+      "path": "assets/Crate.png",
+      "type": "png",
+      "width": 28,
+      "height": 28,
+      "frame_width": 28,
+      "frame_height": 28,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            28,
+            28
+          ],
+          "content_bounds": [
+            0,
+            0,
+            28,
+            28
+          ],
+          "last_row_alpha_pixels": 12,
+          "sha256": "0a3b91499b6cf4c1e2d76f094ad895562f1a1e3e5df366fa6d2dc0abf7eea4d4"
+        }
+      ],
+      "sha256": "8968d511e0d876dcd122e0f0d05e778a2128663889f72f6d4f102a34b634d0f8"
+    },
+    {
+      "path": "assets/Barrel.png",
+      "type": "png",
+      "width": 22,
+      "height": 32,
+      "frame_width": 22,
+      "frame_height": 32,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            22,
+            32
+          ],
+          "content_bounds": [
+            0,
+            0,
+            22,
+            32
+          ],
+          "last_row_alpha_pixels": 16,
+          "sha256": "40423c2fb13376ee57e5aacd2079570331bedaf774f7c8e73ecf12dae3702bcc"
+        }
+      ],
+      "sha256": "1afceb07814aa05a614aa5c8bfea8a1f12bc79a146616c33be3ab9ee933317e2"
+    },
+    {
+      "path": "assets/Portal.png",
+      "type": "png",
+      "width": 24,
+      "height": 54,
+      "frame_width": 24,
+      "frame_height": 54,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            24,
+            54
+          ],
+          "content_bounds": [
+            0,
+            0,
+            24,
+            54
+          ],
+          "last_row_alpha_pixels": 16,
+          "sha256": "69975f5591c0e4d9b5711bcc66c38712fade4227c34a88ce1d2b0cf1d68e45e5"
+        }
+      ],
+      "sha256": "e2ff92537dbb85e02494170e212d3737b3b191762a9f137158117f6f43fa360b"
+    },
+    {
+      "path": "assets/Platform.png",
+      "type": "png",
+      "width": 96,
+      "height": 8,
+      "frame_width": 96,
+      "frame_height": 8,
+      "frame_count": 1,
+      "layout": "single_row_no_padding",
+      "foot_anchor": null,
+      "unique_frames": 1,
+      "frames": [
+        {
+          "index": 0,
+          "rectangle": [
+            0,
+            0,
+            96,
+            8
+          ],
+          "content_bounds": [
+            0,
+            0,
+            96,
+            8
+          ],
+          "last_row_alpha_pixels": 89,
+          "sha256": "ffa52a2b6509c8a0ac7db9501ef93f83645963c5c15fc033453f8952f8db7406"
+        }
+      ],
+      "sha256": "8513e743c6d3000c06794997c20184a73100d8d42be58fc1c473c99b6133d2b8"
+    },
+    {
+      "path": "assets/大壮动作.json",
+      "type": "aseprite_json",
+      "frame_count": 44,
+      "tags": [
+        {
+          "name": "Idle",
+          "from": 0,
+          "to": 5,
+          "direction": "forward"
+        },
+        {
+          "name": "Switch",
+          "from": 6,
+          "to": 12,
+          "direction": "forward"
+        },
+        {
+          "name": "Hurt",
+          "from": 13,
+          "to": 17,
+          "direction": "forward"
+        },
+        {
+          "name": "Hit",
+          "from": 18,
+          "to": 21,
+          "direction": "forward"
+        },
+        {
+          "name": "Death",
+          "from": 22,
+          "to": 27,
+          "direction": "forward"
+        },
+        {
+          "name": "Walk",
+          "from": 28,
+          "to": 37,
+          "direction": "forward"
+        },
+        {
+          "name": "Run",
+          "from": 38,
+          "to": 43,
+          "direction": "forward"
+        }
+      ],
+      "sha256": "273aa7c33b2f2b1cf12908dd78fc5883d2a29baa56f3de2e9cad0ab969268601"
+    },
+    {
+      "path": "assets/盾牌男.json",
+      "type": "aseprite_json",
+      "frame_count": 54,
+      "tags": [
+        {
+          "name": "Idle",
+          "from": 0,
+          "to": 9,
+          "direction": "forward"
+        },
+        {
+          "name": "ShieldHit",
+          "from": 10,
+          "to": 10,
+          "direction": "forward"
+        },
+        {
+          "name": "Switch",
+          "from": 11,
+          "to": 14,
+          "direction": "forward"
+        },
+        {
+          "name": "ShieldAttact",
+          "from": 15,
+          "to": 19,
+          "direction": "forward"
+        },
+        {
+          "name": "Shoot",
+          "from": 20,
+          "to": 27,
+          "direction": "forward"
+        },
+        {
+          "name": "ShootEnd",
+          "from": 28,
+          "to": 29,
+          "direction": "forward"
+        },
+        {
+          "name": "Hit",
+          "from": 30,
+          "to": 38,
+          "direction": "forward"
+        },
+        {
+          "name": "Run",
+          "from": 39,
+          "to": 45,
+          "direction": "forward"
+        },
+        {
+          "name": "Walk",
+          "from": 46,
+          "to": 53,
+          "direction": "forward"
+        }
+      ],
+      "sha256": "22f4560a9b7772b8d95b0e80b7b3c6e157d07a5c2c9951791d5139f44e7eb31b"
+    },
+    {
+      "path": "assets/sound_player_jump.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 5380,
+      "requested_duration_ms": 244,
+      "duration_ms": 243.99092970521542,
+      "peak": 0.760223,
+      "rms": 0.117842,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "b4052de94d3c4c1030f75616e7896e4c05384e544a4a2e3f9ae69509a8545c85"
+    },
+    {
+      "path": "assets/sound_player_land.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 3726,
+      "requested_duration_ms": 169,
+      "duration_ms": 168.9795918367347,
+      "peak": 0.869965,
+      "rms": 0.087364,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "9f12380051becb688e7c6439db1c708a957bcb202699f8e2b12a7bdbd7aa1930"
+    },
+    {
+      "path": "assets/sound_player_landwire.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 8533,
+      "requested_duration_ms": 387,
+      "duration_ms": 386.984126984127,
+      "peak": 0.815308,
+      "rms": 0.07593,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "696b5a8a6439f623c3f791c243bf567908dad29efd49e9f67c662d464a0b7acc"
+    },
+    {
+      "path": "assets/sound_player_prerun.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 9504,
+      "requested_duration_ms": 431,
+      "duration_ms": 431.0204081632653,
+      "peak": 0.821655,
+      "rms": 0.09698,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "7f119aa09d6b3f66dc7e4f786032b026557849fc49ff8d394d2f259991a292e7"
+    },
+    {
+      "path": "assets/sound_player_roll.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 24431,
+      "requested_duration_ms": 1108,
+      "duration_ms": 1107.9818594104308,
+      "peak": 0.488373,
+      "rms": 0.066952,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "c43a1184ba3c502b769bd51e140702efe0574bcf574d05bf576ca4e6b64cf01c"
+    },
+    {
+      "path": "assets/sound_player_running_1.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 3219,
+      "requested_duration_ms": 146,
+      "duration_ms": 145.98639455782313,
+      "peak": 0.869965,
+      "rms": 0.124226,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "410ae0fede3f80c4704baa4e619f1c6f98b3a8d7fa6dca964160d63d1b769be9"
+    },
+    {
+      "path": "assets/sound_player_running_2.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 3330,
+      "requested_duration_ms": 151,
+      "duration_ms": 151.0204081632653,
+      "peak": 0.866028,
+      "rms": 0.129783,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "1cba862bf6b8a98d90403a6513906d9c68791ddc68a804a5481b32acfd128233"
+    },
+    {
+      "path": "assets/sound_player_running_3.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 3418,
+      "requested_duration_ms": 155,
+      "duration_ms": 155.01133786848072,
+      "peak": 0.869965,
+      "rms": 0.084847,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "57444495fdd0a2cb8d763523a3bae8d7fb1eac217dbe238ac0fe66a3ffb6edd1"
+    },
+    {
+      "path": "assets/sound_player_running_4.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 3506,
+      "requested_duration_ms": 159,
+      "duration_ms": 159.00226757369614,
+      "peak": 0.869965,
+      "rms": 0.108532,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "64ec19fedf91f5a5c482a7b05f27b6a8be6dda7c4460e1db73df70de6ed48928"
+    },
+    {
+      "path": "assets/sound_player_slash_1.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 14707,
+      "requested_duration_ms": 667,
+      "duration_ms": 666.984126984127,
+      "peak": 0.869965,
+      "rms": 0.088648,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "10a0c5b11d0be570276880233a5c365a9f379cd177bc3c5a4db755ec82185eb4"
+    },
+    {
+      "path": "assets/sound_player_slash_2.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 14994,
+      "requested_duration_ms": 680,
+      "duration_ms": 680.0,
+      "peak": 0.869965,
+      "rms": 0.088184,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "c963854e9c41adebd88b62f3bcc4d619be0d0cbd814e9816a5394e8157fa194b"
+    },
+    {
+      "path": "assets/sound_player_slash_3.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 15435,
+      "requested_duration_ms": 700,
+      "duration_ms": 700.0,
+      "peak": 0.869965,
+      "rms": 0.072305,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "7af19a4ac4b481a7390e2239202d961472e8f8a5da765343569d409dbe7e1afd"
+    },
+    {
+      "path": "assets/sound_player_wallslide.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 22050,
+      "requested_duration_ms": 1000,
+      "duration_ms": 1000.0,
+      "peak": 0.458527,
+      "rms": 0.09683,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "3130980e50adb80384036ef5a5d3e45328840d60bdf97856f3f1d71dd8a3d50a"
+    },
+    {
+      "path": "assets/sound_playerdie.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 57595,
+      "requested_duration_ms": 2612,
+      "duration_ms": 2612.018140589569,
+      "peak": 0.834167,
+      "rms": 0.06802,
+      "loop": false,
+      "loop_seam_sample_delta": 0,
+      "sha256": "e5f68bb867b00fe4a22f1151d97f82f811777d0a101594e31945bb856ac42ae2"
+    },
+    {
+      "path": "assets/Ambient.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 132300,
+      "requested_duration_ms": 6000,
+      "duration_ms": 6000.0,
+      "peak": 0.200043,
+      "rms": 0.04533,
+      "loop": true,
+      "loop_seam_sample_delta": 322,
+      "sha256": "bfea867751214357119248006667c3db422c888a54e5281c5fff7811f1898883"
+    },
+    {
+      "path": "assets/Music.wav",
+      "type": "wav",
+      "sample_rate": 22050,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "sample_count": 264600,
+      "requested_duration_ms": 12000,
+      "duration_ms": 12000.0,
+      "peak": 0.382507,
+      "rms": 0.054057,
+      "loop": true,
+      "loop_seam_sample_delta": 20,
+      "sha256": "f495740f9b8bd9fef2247f2f90e8580aeb56a7cd8bb912a77d4636e886872cd6"
+    }
+  ],
+  "asset_file_count": 44,
+  "engine_sidecars": {
+    "count": 44,
+    "paths": [
+      "assets/Ambient.wav.meta",
+      "assets/Background.png.meta",
+      "assets/Barrel.png.meta",
+      "assets/Bullet.png.meta",
+      "assets/Crate.png.meta",
+      "assets/Music.wav.meta",
+      "assets/Platform.png.meta",
+      "assets/Portal.png.meta",
+      "assets/VFX_Jump.png.meta",
+      "assets/VFX_Land.png.meta",
+      "assets/VFX_Roll.png.meta",
+      "assets/VFX_Slash.png.meta",
+      "assets/sound_player_jump.wav.meta",
+      "assets/sound_player_land.wav.meta",
+      "assets/sound_player_landwire.wav.meta",
+      "assets/sound_player_prerun.wav.meta",
+      "assets/sound_player_roll.wav.meta",
+      "assets/sound_player_running_1.wav.meta",
+      "assets/sound_player_running_2.wav.meta",
+      "assets/sound_player_running_3.wav.meta",
+      "assets/sound_player_running_4.wav.meta",
+      "assets/sound_player_slash_1.wav.meta",
+      "assets/sound_player_slash_2.wav.meta",
+      "assets/sound_player_slash_3.wav.meta",
+      "assets/sound_player_wallslide.wav.meta",
+      "assets/sound_playerdie.wav.meta",
+      "assets/受击特效.png.meta",
+      "assets/大壮动作.json.meta",
+      "assets/大壮动作.png.meta",
+      "assets/大壮攻击特效.png.meta",
+      "assets/射击特效.png.meta",
+      "assets/武士零主角/Hit.png.meta",
+      "assets/武士零主角/Idle.png.meta",
+      "assets/武士零主角/Jump.png.meta",
+      "assets/武士零主角/Land.png.meta",
+      "assets/武士零主角/Prerun.png.meta",
+      "assets/武士零主角/Roll.png.meta",
+      "assets/武士零主角/Run.png.meta",
+      "assets/武士零主角/Slash.png.meta",
+      "assets/武士零主角/Squat.png.meta",
+      "assets/武士零主角/Stoprun.png.meta",
+      "assets/武士零主角/Wallslide.png.meta",
+      "assets/盾牌男.json.meta",
+      "assets/盾牌男.png.meta"
+    ],
+    "purpose": "官方 build 自动生成并消费的逐文件 UUID 导入管理配置；非生成器素材，不覆写或删除"
+  },
+  "animation_indexing": "图集与 JSON 索引从零开始；x=帧索引*帧宽，y=0；无帧间留白",
+  "rendering": "最近邻采样；角色锚点=(帧宽/2,帧高-1)",
+  "audio": {
+    "sample_rate": 22050,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "duration_tolerance_ms": 0.022675736961451247,
+    "loop_files": [
+      "assets/Ambient.wav",
+      "assets/Music.wav"
+    ]
+  },
+  "contact_sheet": {
+    "path": "tests/output/asset_contact.png",
+    "sha256": "def6dc52c28004f1801a56af96e04c7a30928a4ca80129c8f6f1e769c7a25a96"
+  },
+  "verification": {
+    "errors": [],
+    "png_dimensions": "pass",
+    "frame_alpha": "pass",
+    "all_character_feet_last_row": "pass",
+    "unique_animation_frames": "pass",
+    "exact_aseprite_tags_and_durations": "pass",
+    "wav_format_duration_peak": "pass",
+    "loop_seams": "pass",
+    "no_unused_asset_files": "pass",
+    "exact_door_apertures": "pass",
+    "engine_sidecars": "pass"
+  }
+}

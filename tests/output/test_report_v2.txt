@@ -1,0 +1,94 @@
+ZERO HOUR actual Lua self-test
+Status: fail
+Command: /workspace/tests/runtime/UrhoXRuntime /workspace/tests/simulation.lua -tapcode_dir=/workspace -tool_mode -graphicsheadless -nosound -log warning
+Working directory: /workspace/tests/output/simulation_runtime_v2
+Runtime exit=0; wall=16.517s; timeout=False
+Stdout: /workspace/tests/output/simulation_v2.stdout.log
+Summary: /workspace/tests/output/simulation_v2.json
+Counts: {"blocked": 0, "fail": 1, "pass": 67}
+PASS config.ten_chapters
+PASS collision.sweep_edges
+PASS collision.ranged_body_contract
+PASS combat.one_slash.melee
+PASS combat.one_slash.ranged
+PASS combat.multi_kill_and_dead_no_attack
+PASS combat.spawn_one_slash_lethal
+PASS combat.dead_player_cannot_slash
+PASS combat.melee_one_hit_death
+PASS combat.shield_one_hit_death
+PASS combat.bullet_swept_one_hit
+PASS combat.friendly_never_hurts_player
+PASS roll.boundary.0.044999
+PASS roll.boundary.0.045000
+PASS roll.boundary.0.045001
+PASS roll.boundary.0.309999
+PASS roll.boundary.0.310000
+PASS roll.boundary.0.310001
+PASS roll.legal_lifecycle_and_wall
+PASS roll.cooldown_prevents_spam
+PASS parry.front_sweep_then_reflect_kill
+PASS parry.body_blade_tie_prioritizes_blade
+PASS parry.rear_body_before_blade_dies
+PASS parry.windup_and_recovery_no_parry
+PASS time.slow_world_player_ratios
+PASS time.bullet_enemy_fx_particles_slow
+PASS input.left_right_cancel
+PASS movement.legal_jump_land
+PASS movement.wallslide_and_walljump
+PASS movement.platform_from_below_and_land
+PASS movement.planned_first_platform_reachable
+PASS movement.no_air_double_jump
+PASS flow.R_only_settlement
+PASS flow.next_restricted_and_ending
+PASS spawn.waiting_waves_block_victory
+PASS spawn.all_four_doors_actual
+PASS spawn.slow_uses_world_time
+PASS FSM.melee_all_states
+PASS FSM.ranged_all_states
+PASS FSM.high_level_multi_shot_contract
+FAIL replay.normal_world_timeline_not_real
+[string "/workspace/tests/simulation"]:29: numeric expected=1.69 actual=3.25833333333
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:29: in upvalue 'near'
+	[string "/workspace/tests/simulation"]:414: in function <[string "/workspace/tests/simulation"]:409>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:36: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:409: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:636: in function <[string "/workspace/tests/simulation"]:634>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:648: in function 'Start'
+Evidence: {"replay_seconds": 3.2583333333333333, "real_end": 2.999999999999992, "world_end": 1.4399999999999986}
+PASS replay.copy_isolation_no_reexecution
+PASS replay.force_capture_does_not_double_accum
+PASS rewind.only_current_level
+PASS rewind.maximum_four_real_seconds
+PASS objects.crate_slash_shards_kill
+PASS objects.barrel_chain_kills
+PASS objects.player_blast_and_roll_protection
+PASS objects.safe_legal_edge_barrel_slash
+PASS objects.hostile_bullet_intercepts_before_player
+PASS objects.chain_respects_vertical_distance
+PASS portal.player_and_bullet_pair
+PASS portal.no_loop_and_height_gate
+PASS portal.player_650ms_cooldown_real_clock
+PASS portal.swept_fast_bullet
+PASS stress.direct_array_cap_adversarial
+PASS campaign.legal_inputs.level_1
+PASS campaign.legal_inputs.level_2
+PASS campaign.legal_inputs.level_3
+PASS campaign.legal_inputs.level_4
+PASS campaign.legal_inputs.level_5
+PASS campaign.legal_inputs.level_6
+PASS campaign.legal_inputs.level_7
+PASS campaign.legal_inputs.level_8
+PASS campaign.legal_inputs.level_9
+PASS campaign.legal_inputs.level_10
+PASS stress.longrun_200000_legal_steps
+PASS stress.replay_2700_live_idle_steps_memory
+Campaign: {"level": 10, "mode": "ending", "total_steps": 60180, "actions": {"slow": 17708, "jump": 0, "right": 8029, "restart": 0, "left": 7491, "slash": 79, "roll": 0}, "high_water": {"particles": 170, "bullets": 3, "frames": 1082, "objects": 4, "trails": 8, "enemies": 12, "stains": 140, "fx": 2}, "no_state_mutation": true}
+Longrun: {"steps": 200000, "active_steps": 105374, "replay_steps": 93506, "completions": 24, "failures": 2, "high_water": {"particles": 172, "bullets": 6, "frames": 1291, "objects": 4, "trails": 8, "enemies": 12, "stains": 140, "fx": 5}, "memory_max_gc_kib": 58173.173828125}
+Limitations:
+Logic only: no rendered gameplay, audible audio, or OS keyboard delivery asserted.
+Unit fixtures arrange isolated states; campaign and 200k longrun use only action inputs.
+Engine bootstrap emits Noop UI shader warnings; these are not simulation test failures.

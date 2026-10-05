@@ -1,0 +1,201 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 3114,
+    "frames_completed": 140,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_276][3] ERROR: Could not find resource sound_player_jump.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_284][3] ERROR: Could not find resource sound_player_land.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_288][3] ERROR: Could not find resource sound_player_landwire.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_291][3] ERROR: Could not find resource sound_player_prerun.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_294][3] ERROR: Could not find resource sound_player_roll.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_297][3] ERROR: Could not find resource sound_player_wallslide.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_301][3] ERROR: Could not find resource sound_playerdie.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_304][3] ERROR: Could not find resource sound_player_running_1.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_307][3] ERROR: Could not find resource sound_player_running_2.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_310][3] ERROR: Could not find resource sound_player_running_3.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_313][3] ERROR: Could not find resource sound_player_running_4.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_317][3] ERROR: Could not find resource sound_player_slash_1.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_320][3] ERROR: Could not find resource sound_player_slash_2.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_323][3] ERROR: Could not find resource sound_player_slash_3.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_326][3] ERROR: Could not find resource Ambient.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_329][3] ERROR: Could not find resource Music.wav",
+                    "frame": 0
+                },
+                {
+                    "category": "resource",
+                    "message": "[2026-10-05 10_16_17_333][3] ERROR: Could not find resource Background.png",
+                    "frame": 0
+                },
+                {
+                    "category": "engine",
+                    "message": "[2026-10-05 10_16_17_333][3] ERROR: nvgCreateImageUrho: Failed to load texture: Background.png",
+                    "frame": 0
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-05 10_16_17_333][3] ERROR: Execute Lua function failed: [string \"Game/Render\"]:12: 图片加载失败：Background.png\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"Game/Render\"]:12: in method 'init'\n\t[string \"Game/Render\"]:6: in field 'New'\n\t[string \"main\"]:20: in function 'Start'",
+                    "frame": 0
+                }
+            ]
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "engine",
+                    "message": "Frame time spike: 379.572ms (threshold: 100ms)",
+                    "frame": 120
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 0,
+            "component_count": 0,
+            "scene_exists": false
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 182.4290008544922
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 16.613000869750978
+        },
+        {
+            "frame": 70,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 16.621000289916993
+        },
+        {
+            "frame": 140,
+            "phase": "run",
+            "nodes": 0,
+            "components": 0,
+            "hash": 0,
+            "frame_time_ms": 16.613000869750978
+        }
+    ],
+    "scene_stalled": true,
+    "max_frame_time_ms": 379.5719909667969,
+    "update_defined": false,
+    "component_census": {},
+    "test_result": "NOT_RUN",
+    "test_assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [
+        "sound_player_jump.wav",
+        "sound_player_land.wav",
+        "sound_player_landwire.wav",
+        "sound_player_prerun.wav",
+        "sound_player_roll.wav",
+        "sound_player_wallslide.wav",
+        "sound_playerdie.wav",
+        "sound_player_running_1.wav",
+        "sound_player_running_2.wav",
+        "sound_player_running_3.wav",
+        "sound_player_running_4.wav",
+        "sound_player_slash_1.wav",
+        "sound_player_slash_2.wav",
+        "sound_player_slash_3.wav",
+        "Ambient.wav",
+        "Music.wav",
+        "Background.png"
+    ],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 1,
+        "resource_errors": 17,
+        "engine_errors": 2,
+        "total_errors": 20
+    }
+}

@@ -1,0 +1,164 @@
+ZERO HOUR actual Lua self-test
+Status: fail
+Command: /workspace/tests/runtime/UrhoXRuntime /workspace/tests/simulation.lua -tapcode_dir=/workspace -tool_mode -graphicsheadless -nosound -log warning
+Working directory: /workspace/tests/output/simulation_runtime_v1
+Runtime exit=0; wall=11.671s; timeout=False
+Stdout: /workspace/tests/output/simulation_v1.stdout.log
+Summary: /workspace/tests/output/simulation_v1.json
+Counts: {"blocked": 7, "fail": 6, "pass": 55}
+PASS config.ten_chapters
+PASS collision.sweep_edges
+PASS collision.ranged_body_contract
+PASS combat.one_slash.melee
+PASS combat.one_slash.ranged
+PASS combat.multi_kill_and_dead_no_attack
+FAIL combat.spawn_not_knife_target
+[string "/workspace/tests/simulation"]:213: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:213: in function <[string "/workspace/tests/simulation"]:210>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:210: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {}
+PASS combat.dead_player_cannot_slash
+PASS combat.melee_one_hit_death
+PASS combat.shield_one_hit_death
+PASS combat.bullet_swept_one_hit
+PASS combat.friendly_never_hurts_player
+PASS roll.boundary.0.044999
+PASS roll.boundary.0.045000
+PASS roll.boundary.0.045001
+PASS roll.boundary.0.309999
+PASS roll.boundary.0.310000
+PASS roll.boundary.0.310001
+PASS roll.legal_lifecycle_and_wall
+PASS roll.cooldown_prevents_spam
+PASS parry.front_sweep_then_reflect_kill
+PASS parry.body_blade_tie_prioritizes_blade
+PASS parry.rear_body_before_blade_dies
+PASS parry.windup_and_recovery_no_parry
+PASS time.slow_world_player_ratios
+PASS time.bullet_enemy_fx_particles_slow
+PASS input.left_right_cancel
+PASS movement.legal_jump_land
+PASS movement.wallslide_and_walljump
+PASS movement.platform_from_below_and_land
+PASS movement.planned_first_platform_reachable
+PASS movement.no_air_double_jump
+PASS flow.R_only_settlement
+PASS flow.next_restricted_and_ending
+PASS spawn.waiting_waves_block_victory
+PASS spawn.all_four_doors_actual
+PASS spawn.slow_uses_world_time
+FAIL FSM.melee_all_states
+[string "/workspace/tests/simulation"]:390: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:390: in function <[string "/workspace/tests/simulation"]:386>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:386: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {}
+PASS FSM.ranged_all_states
+FAIL FSM.high_level_multi_shot_contract
+[string "/workspace/tests/simulation"]:416: plan promises high-level bursts; Shoot emits only one
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:416: in function <[string "/workspace/tests/simulation"]:411>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:411: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {"shots_in_high_level_shoot": 1}
+PASS replay.normal_world_timeline_not_real
+PASS replay.copy_isolation_no_reexecution
+PASS replay.force_capture_does_not_double_accum
+PASS rewind.only_current_level
+PASS rewind.maximum_four_real_seconds
+PASS objects.crate_slash_shards_kill
+PASS objects.barrel_chain_kills
+PASS objects.player_blast_and_roll_protection
+PASS objects.safe_legal_edge_barrel_slash
+PASS objects.hostile_bullet_intercepts_before_player
+FAIL objects.chain_respects_vertical_distance
+[string "/workspace/tests/simulation"]:496: blast must not chain to object 146px above barrel
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:496: in function <[string "/workspace/tests/simulation"]:492>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:492: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {"remote_crate_broken": true}
+PASS portal.player_and_bullet_pair
+PASS portal.no_loop_and_height_gate
+PASS portal.player_650ms_cooldown_real_clock
+FAIL portal.swept_fast_bullet
+[string "/workspace/tests/simulation"]:48: swept bullet crossing portal must teleport, not tunnel expected=1 actual=0
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:48: in upvalue 'equal'
+	[string "/workspace/tests/simulation"]:522: in function <[string "/workspace/tests/simulation"]:518>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:518: in upvalue 'mechanics'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {"teleports": 0, "x_after": 100}
+PASS stress.direct_array_cap_adversarial
+PASS campaign.legal_inputs.level_1
+PASS campaign.legal_inputs.level_2
+FAIL campaign.legal_inputs.level_3
+[string "/workspace/tests/simulation"]:48: legal-input robot did not reach settlement expected=complete actual=failed
+stack traceback:
+	[C]: in function 'assert'
+	[string "/workspace/tests/simulation"]:48: in upvalue 'equal'
+	[string "/workspace/tests/simulation"]:573: in function <[string "/workspace/tests/simulation"]:543>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:58: in upvalue 'test'
+	[string "/workspace/tests/simulation"]:543: in upvalue 'campaign'
+	[string "/workspace/tests/simulation"]:645: in function <[string "/workspace/tests/simulation"]:643>
+	[C]: in function 'xpcall'
+	[string "/workspace/tests/simulation"]:657: in function 'Start'
+Evidence: {"result": {"cpu": 0.135257, "high_water": {"bullets": 0, "enemies": 4, "frames": 292, "fx": 4, "objects": 2, "particles": 26, "stains": 73, "trails": 8}, "level": 3, "living": 1, "mode": "failed", "real_seconds": 10.2, "retries": 6, "scheduled": 5, "spawnIndex": 2, "stats": {"blastKills": 0, "breaks": 0, "dodges": 0, "jumps": 7, "kills": 0, "parries": 0, "reflectKills": 0, "rolls": 0, "shots": 0, "slashes": 0, "slowSeconds": 7.7416666666668, "steps": 10, "teleports": 0}, "steps": 9754, "trace": [{"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 240, "x": 377.664, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 268, "x": 405.888, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 397, "x": 485.191956577, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 480, "x": 511.24370286558, "y": 188.922}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 526, "x": 487.56622084538, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 655, "x": 482.09853205835, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 720, "x": 494.51628685656, "y": 182.9766}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 784, "x": 480.21418759383, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 913, "x": 480.17204829688, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 960, "x": 483.54819684818, "y": 186.9456}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 1042, "x": 480.17204555293, "y": 244.0506}, {"keys": {}, "kills": 0, "mode": "dying", "step": 1200, "x": 498.6196116999, "y": 208.389}, {"keys": {"restart": true}, "kills": 0, "mode": "rewind", "step": 1225, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 1440, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 1680, "x": 498.6196116999, "y": 208.389}, {"keys": {"left": false, "right": true, "slow": false}, "kills": 0, "mode": "playing", "step": 1920, "x": 350.28, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 1974, "x": 405.888, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 2103, "x": 485.191956577, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2160, "x": 489.1795019601, "y": 183.5166}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 2232, "x": 487.56622084538, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2361, "x": 482.09853205835, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2400, "x": 483.48710004259, "y": 191.892}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2490, "x": 480.21418759383, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2619, "x": 480.17204829688, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 2640, "x": 485.17616357511, "y": 210.1818}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 2748, "x": 480.17204555293, "y": 244.0506}, {"keys": {}, "kills": 0, "mode": "dying", "step": 2880, "x": 498.6196116999, "y": 208.389}, {"keys": {"restart": true}, "kills": 0, "mode": "rewind", "step": 2931, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 3120, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 3360, "x": 498.6196116999, "y": 208.389}, {"keys": {"left": false, "right": true, "slow": false}, "kills": 0, "mode": "playing", "step": 3600, "x": 313.88, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 3680, "x": 405.888, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 3809, "x": 485.191956577, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 3840, "x": 483.8534604855, "y": 198.7968}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 3938, "x": 487.56622084538, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4067, "x": 482.09853205835, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4080, "x": 481.66827166943, "y": 221.493}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4196, "x": 480.21418759383, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4320, "x": 481.84163384732, "y": 239.475}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4325, "x": 480.17204829688, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 4454, "x": 480.17204555293, "y": 244.0506}, {"keys": {}, "kills": 0, "mode": "dying", "step": 4560, "x": 498.6196116999, "y": 208.389}, {"keys": {"restart": true}, "kills": 0, "mode": "rewind", "step": 4637, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 4800, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 5040, "x": 498.6196116999, "y": 208.389}, {"keys": {"left": false, "right": true, "slow": false}, "kills": 0, "mode": "playing", "step": 5280, "x": 277.48, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 5386, "x": 405.888, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 5515, "x": 485.191956577, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 5520, "x": 484.58395092334, "y": 234.7626}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 5644, "x": 487.56622084538, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 5760, "x": 493.79504004528, "y": 225.5718}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 5773, "x": 482.09853205835, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 5902, "x": 480.21418759383, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 6000, "x": 502.51092210501, "y": 201.45}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 6031, "x": 480.17204829688, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 6160, "x": 480.17204555293, "y": 244.0506}, {"keys": {"left": false, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 6240, "x": 503.79111966739, "y": 187.2426}, {"keys": {"restart": true}, "kills": 0, "mode": "rewind", "step": 6343, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 6480, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 6720, "x": 498.6196116999, "y": 208.389}, {"keys": {"left": false, "right": true, "slow": false}, "kills": 0, "mode": "playing", "step": 6960, "x": 241.08, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7092, "x": 405.888, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 7200, "x": 484.5964825862, "y": 213.627}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 7221, "x": 485.191956577, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 7350, "x": 487.56622084538, "y": 244.0506}, {"keys": {"left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 7440, "x": 510.55151138823, "y": 193.9116}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7479, "x": 482.09853205835, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7608, "x": 480.21418759383, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7680, "x": 497.63051934221, "y": 184.1106}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7737, "x": 480.17204829688, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7866, "x": 480.17204555293, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 7920, "x": 485.24895248583, "y": 184.224}, {"keys": {"restart": true}, "kills": 0, "mode": "rewind", "step": 8049, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 8160, "x": 498.6196116999, "y": 208.389}, {"keys": {}, "kills": 0, "mode": "rewind", "step": 8400, "x": 498.6196116999, "y": 208.389}, {"keys": {"left": false, "right": true, "slow": false}, "kills": 0, "mode": "playing", "step": 8640, "x": 204.68000000004, "y": 246}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 8798, "x": 405.888, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 8880, "x": 488.544, "y": 188.3316}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 8927, "x": 485.191956577, "y": 244.0506}, {"keys": {"jump": true, "left": true, "right": false, "slow": true}, "kills": 0, "mode": "playing", "step": 9056, "x": 487.56622084538, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9120, "x": 495.01054197439, "y": 182.937}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9185, "x": 482.09853205835, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9314, "x": 480.21418759383, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9360, "x": 483.56167042844, "y": 187.4568}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9443, "x": 480.17204829688, "y": 244.0506}, {"keys": {"jump": true, "left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9572, "x": 480.17204555293, "y": 244.0506}, {"keys": {"left": false, "right": true, "slow": true}, "kills": 0, "mode": "playing", "step": 9600, "x": 483.11010620584, "y": 201.891}], "trace_digest": 1448026019, "world_seconds": 3.5115}}
+BLOCKED campaign.legal_inputs.level_4
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_5
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_6
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_7
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_8
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_9
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+BLOCKED campaign.legal_inputs.level_10
+Previous campaign level did not complete; no forced Load or enemy removal permitted
+Evidence: {}
+PASS stress.longrun_200000_legal_steps
+PASS stress.replay_2700_live_idle_steps_memory
+Campaign: {"level": 3, "mode": "failed", "total_steps": 15535, "actions": {"jump": 42, "left": 2909, "restart": 5, "right": 5424, "roll": 0, "slash": 7, "slow": 7303}, "high_water": {"bullets": 0, "enemies": 4, "frames": 292, "fx": 4, "objects": 2, "particles": 26, "stains": 73, "trails": 8}, "no_state_mutation": true}
+Longrun: {"steps": 200000, "active_steps": 148808, "replay_steps": 14386, "completions": 9, "failures": 66, "high_water": {"bullets": 7, "enemies": 11, "frames": 478, "fx": 7, "objects": 4, "particles": 218, "stains": 140, "trails": 8}, "memory_max_gc_kib": 18800.25390625}
+Limitations:
+Logic only: no rendered gameplay, audible audio, or OS keyboard delivery asserted.
+Unit fixtures arrange isolated states; campaign and 200k longrun use only action inputs.
+Engine bootstrap emits Noop UI shader warnings; these are not simulation test failures.

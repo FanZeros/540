@@ -1,0 +1,25 @@
+{
+  "schema": 2,
+  "repository": "https://github.com/FanZeros/540",
+  "branch": "feature/zero-hour-20261005",
+  "game_entry": "scripts/main.lua",
+  "main_sha256": "f2396172cef787eed94744a5d4a914b2cb01684956c3976151080dbba95d9195",
+  "assets_including_sidecars": 88,
+  "asset_hash_manifest": "tests/output/delivery_audit.json",
+  "gameplay_hash_manifest": "tests/output/simulation_release.json",
+  "logical_regression": {"pass": 80, "fail": 0, "blocked": 0},
+  "render_regression": "tests/output/visual_summary_v3.json",
+  "final_rewind_regression": "tests/output/visual_summary_delivery_final_rewind.json",
+  "final_replay_regression": "tests/output/visual_summary_delivery_final_replay.json",
+  "required_documents": ["计划.md", "交付说明.md", "自测报告.md"],
+  "launchers": ["启动.cmd", "启动.sh"],
+  "file_list_source": "git ls-tree -r --name-only HEAD",
+  "file_hash_source": "Git提交对象记录每个已提交文件内容；素材与受测玩法另有SHA256清单。",
+  "upload_status": "未完成，实际Git推送认证失败退出码128，见github_push.log",
+  "locally_retained_not_committed": ["官方Runtime包", "可再生GPU缓存", "身份状态", "内部配置"],
+  "notes": [
+    "原始成功/失败测试日志、截图、JSON及测试脚本均作为交付提交。",
+    "Interface.lua的最终提示布局由真实渲染验证，未将其称为release逻辑哈希覆盖。",
+    "不将旧清单运行中的部分产物哈希冒充最终冻结全文件哈希。"
+  ]
+}

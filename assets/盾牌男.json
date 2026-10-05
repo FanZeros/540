@@ -1,0 +1,1212 @@
+{
+  "frames": {
+    "盾牌男 0.aseprite": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 1.aseprite": {
+      "frame": {
+        "x": 51,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 2.aseprite": {
+      "frame": {
+        "x": 102,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 3.aseprite": {
+      "frame": {
+        "x": 153,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 4.aseprite": {
+      "frame": {
+        "x": 204,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 5.aseprite": {
+      "frame": {
+        "x": 255,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 6.aseprite": {
+      "frame": {
+        "x": 306,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 7.aseprite": {
+      "frame": {
+        "x": 357,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 8.aseprite": {
+      "frame": {
+        "x": 408,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 9.aseprite": {
+      "frame": {
+        "x": 459,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 10.aseprite": {
+      "frame": {
+        "x": 510,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 11.aseprite": {
+      "frame": {
+        "x": 561,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 12.aseprite": {
+      "frame": {
+        "x": 612,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 13.aseprite": {
+      "frame": {
+        "x": 663,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 14.aseprite": {
+      "frame": {
+        "x": 714,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 15.aseprite": {
+      "frame": {
+        "x": 765,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 16.aseprite": {
+      "frame": {
+        "x": 816,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 17.aseprite": {
+      "frame": {
+        "x": 867,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 18.aseprite": {
+      "frame": {
+        "x": 918,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 19.aseprite": {
+      "frame": {
+        "x": 969,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 20.aseprite": {
+      "frame": {
+        "x": 1020,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 21.aseprite": {
+      "frame": {
+        "x": 1071,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 22.aseprite": {
+      "frame": {
+        "x": 1122,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 23.aseprite": {
+      "frame": {
+        "x": 1173,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 24.aseprite": {
+      "frame": {
+        "x": 1224,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 25.aseprite": {
+      "frame": {
+        "x": 1275,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 26.aseprite": {
+      "frame": {
+        "x": 1326,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 27.aseprite": {
+      "frame": {
+        "x": 1377,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 28.aseprite": {
+      "frame": {
+        "x": 1428,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 29.aseprite": {
+      "frame": {
+        "x": 1479,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 30.aseprite": {
+      "frame": {
+        "x": 1530,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 31.aseprite": {
+      "frame": {
+        "x": 1581,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 32.aseprite": {
+      "frame": {
+        "x": 1632,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 33.aseprite": {
+      "frame": {
+        "x": 1683,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 34.aseprite": {
+      "frame": {
+        "x": 1734,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 35.aseprite": {
+      "frame": {
+        "x": 1785,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 36.aseprite": {
+      "frame": {
+        "x": 1836,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 37.aseprite": {
+      "frame": {
+        "x": 1887,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 38.aseprite": {
+      "frame": {
+        "x": 1938,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 39.aseprite": {
+      "frame": {
+        "x": 1989,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 40.aseprite": {
+      "frame": {
+        "x": 2040,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 41.aseprite": {
+      "frame": {
+        "x": 2091,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 42.aseprite": {
+      "frame": {
+        "x": 2142,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 43.aseprite": {
+      "frame": {
+        "x": 2193,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 44.aseprite": {
+      "frame": {
+        "x": 2244,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 45.aseprite": {
+      "frame": {
+        "x": 2295,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 100
+    },
+    "盾牌男 46.aseprite": {
+      "frame": {
+        "x": 2346,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 47.aseprite": {
+      "frame": {
+        "x": 2397,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 48.aseprite": {
+      "frame": {
+        "x": 2448,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 49.aseprite": {
+      "frame": {
+        "x": 2499,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 50.aseprite": {
+      "frame": {
+        "x": 2550,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 51.aseprite": {
+      "frame": {
+        "x": 2601,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 52.aseprite": {
+      "frame": {
+        "x": 2652,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    },
+    "盾牌男 53.aseprite": {
+      "frame": {
+        "x": 2703,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 44
+      },
+      "duration": 130
+    }
+  },
+  "meta": {
+    "app": "原创程序化像素画生成器",
+    "version": "1.0",
+    "image": "盾牌男.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2754,
+      "h": 44
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "Idle",
+        "from": 0,
+        "to": 9,
+        "direction": "forward"
+      },
+      {
+        "name": "ShieldHit",
+        "from": 10,
+        "to": 10,
+        "direction": "forward"
+      },
+      {
+        "name": "Switch",
+        "from": 11,
+        "to": 14,
+        "direction": "forward"
+      },
+      {
+        "name": "ShieldAttact",
+        "from": 15,
+        "to": 19,
+        "direction": "forward"
+      },
+      {
+        "name": "Shoot",
+        "from": 20,
+        "to": 27,
+        "direction": "forward"
+      },
+      {
+        "name": "ShootEnd",
+        "from": 28,
+        "to": 29,
+        "direction": "forward"
+      },
+      {
+        "name": "Hit",
+        "from": 30,
+        "to": 38,
+        "direction": "forward"
+      },
+      {
+        "name": "Run",
+        "from": 39,
+        "to": 45,
+        "direction": "forward"
+      },
+      {
+        "name": "Walk",
+        "from": 46,
+        "to": 53,
+        "direction": "forward"
+      }
+    ],
+    "layers": [
+      {
+        "name": "original",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

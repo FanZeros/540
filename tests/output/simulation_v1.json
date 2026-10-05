@@ -1,0 +1,4843 @@
+{
+  "schema": 1,
+  "command": [
+    "/workspace/tests/runtime/UrhoXRuntime",
+    "/workspace/tests/simulation.lua",
+    "-tapcode_dir=/workspace",
+    "-tool_mode",
+    "-graphicsheadless",
+    "-nosound",
+    "-log",
+    "warning"
+  ],
+  "cwd": "/workspace/tests/output/simulation_runtime_v1",
+  "wall_seconds": 11.67055344581604,
+  "returncode": 0,
+  "timeout": false,
+  "launch_error": null,
+  "source_hashes_before": {
+    "scripts/Game/Config.lua": "bf613d0f8f56a43811c7967571d8d7bf8a14a2bb48e13208c23c2357f02efc56",
+    "scripts/Game/World.lua": "ec3eeadb771a7c285cacf0c19ea7816d5ce0bcf3f18efa9f2bff0f0ac7580b39",
+    "scripts/Game/Player.lua": "397ab423e0c2f7d39e600d4f93f8eeca46f98fc9285260baa115945178c3bcef",
+    "scripts/Game/Enemies.lua": "a443b9edcde421d8c70e845ef39a90ee3e987bc893ff4d3c5208953988dd1de4",
+    "scripts/Game/Combat.lua": "90fcd8b9b4f60946201728476986c5f88f87cc8cd6a0ad1b173efbe0d12cb09a",
+    "scripts/Game/Collision.lua": "f01a500aa951a2294d4c4ee0384c2e9ba6bfa662a2e1fa4984732aec8ca39700",
+    "scripts/Game/Replay.lua": "c4cf97230c4b43eb0f1fb86db5ea7211fb1267efaaa031a9253f076f84a8374f",
+    "scripts/Game/Effects.lua": "0b7bd21d719fedc8283a04aad1b87eef8bd66162eb96503c516f6c448fa4dd9f",
+    "scripts/main.lua": "c9259caeabefebc1622f6b6f1d3e122a52e9c3c23aeb724e903d19986c98aba7",
+    "计划.md": "52d0e1fb40cc8b51864fd8145a71c92b9d04e7c918e322fdf005dd03a3dc61da",
+    "tests/simulation.lua": "53b6f474a11be8dbfdfbc04775f8b57d4043ec3e84a47681d2e3828f13338398"
+  },
+  "source_hashes_after": {
+    "scripts/Game/Config.lua": "bf613d0f8f56a43811c7967571d8d7bf8a14a2bb48e13208c23c2357f02efc56",
+    "scripts/Game/World.lua": "ec3eeadb771a7c285cacf0c19ea7816d5ce0bcf3f18efa9f2bff0f0ac7580b39",
+    "scripts/Game/Player.lua": "397ab423e0c2f7d39e600d4f93f8eeca46f98fc9285260baa115945178c3bcef",
+    "scripts/Game/Enemies.lua": "a443b9edcde421d8c70e845ef39a90ee3e987bc893ff4d3c5208953988dd1de4",
+    "scripts/Game/Combat.lua": "90fcd8b9b4f60946201728476986c5f88f87cc8cd6a0ad1b173efbe0d12cb09a",
+    "scripts/Game/Collision.lua": "f01a500aa951a2294d4c4ee0384c2e9ba6bfa662a2e1fa4984732aec8ca39700",
+    "scripts/Game/Replay.lua": "c4cf97230c4b43eb0f1fb86db5ea7211fb1267efaaa031a9253f076f84a8374f",
+    "scripts/Game/Effects.lua": "0b7bd21d719fedc8283a04aad1b87eef8bd66162eb96503c516f6c448fa4dd9f",
+    "scripts/main.lua": "c9259caeabefebc1622f6b6f1d3e122a52e9c3c23aeb724e903d19986c98aba7",
+    "计划.md": "52d0e1fb40cc8b51864fd8145a71c92b9d04e7c918e322fdf005dd03a3dc61da",
+    "tests/simulation.lua": "53b6f474a11be8dbfdfbc04775f8b57d4043ec3e84a47681d2e3828f13338398"
+  },
+  "changed_during_run": [],
+  "max_child_rss_kib": 672328,
+  "stdout": "/workspace/tests/output/simulation_v1.stdout.log",
+  "execution_backend": "official UrhoXRuntime embedded Lua 5.4",
+  "network_or_install_by_runner": false,
+  "simulation": {
+    "campaign": {
+      "actions": {
+        "jump": 42,
+        "left": 2909,
+        "restart": 5,
+        "right": 5424,
+        "roll": 0,
+        "slash": 7,
+        "slow": 7303
+      },
+      "high_water": {
+        "bullets": 0,
+        "enemies": 4,
+        "frames": 292,
+        "fx": 4,
+        "objects": 2,
+        "particles": 26,
+        "stains": 73,
+        "trails": 8
+      },
+      "input_api": "World.Update(C.STEP, action booleans); World.Start/Next only",
+      "level": 3,
+      "levels": [
+        {
+          "cpu": 0.052929,
+          "high_water": {
+            "bullets": 0,
+            "enemies": 4,
+            "frames": 292,
+            "fx": 4,
+            "objects": 2,
+            "particles": 26,
+            "stains": 73,
+            "trails": 8
+          },
+          "level": 1,
+          "living": 0,
+          "mode": "complete",
+          "real_seconds": 13.275,
+          "retries": 0,
+          "scheduled": 3,
+          "spawnIndex": 4,
+          "stats": {
+            "blastKills": 0,
+            "breaks": 0,
+            "dodges": 0,
+            "jumps": 0,
+            "kills": 3,
+            "parries": 0,
+            "reflectKills": 0,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 3,
+            "slowSeconds": 6.1750000000001,
+            "steps": 24,
+            "teleports": 0
+          },
+          "steps": 2639,
+          "trace": [
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 240,
+              "x": 377.664,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 459,
+              "x": 533.56792296393,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": false
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 480,
+              "x": 521.30125629727,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 720,
+              "x": 286.08792354627,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 951,
+              "x": 286.08792255909,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 960,
+              "x": 289.15458922576,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": false
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 1200,
+              "x": 400.56792255909,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 1440,
+              "x": 400.56792255909,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 1444,
+              "x": 400.56792255909,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 3,
+              "mode": "replay",
+              "step": 1680,
+              "x": 365.88792255913,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 3,
+              "mode": "replay",
+              "step": 1920,
+              "x": 365.88792255913,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 3,
+              "mode": "replay",
+              "step": 2160,
+              "x": 365.88792255913,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 3,
+              "mode": "replay",
+              "step": 2400,
+              "x": 365.88792255913,
+              "y": 246
+            }
+          ],
+          "trace_digest": 990292951,
+          "world_seconds": 8.4584999999999
+        },
+        {
+          "cpu": 0.060022,
+          "high_water": {
+            "bullets": 0,
+            "enemies": 4,
+            "frames": 292,
+            "fx": 4,
+            "objects": 2,
+            "particles": 26,
+            "stains": 73,
+            "trails": 8
+          },
+          "level": 2,
+          "living": 0,
+          "mode": "complete",
+          "real_seconds": 16.175,
+          "retries": 0,
+          "scheduled": 4,
+          "spawnIndex": 5,
+          "stats": {
+            "blastKills": 0,
+            "breaks": 0,
+            "dodges": 0,
+            "jumps": 0,
+            "kills": 4,
+            "parries": 0,
+            "reflectKills": 0,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 4,
+            "slowSeconds": 8.2333333333335,
+            "steps": 34,
+            "teleports": 0
+          },
+          "steps": 3142,
+          "trace": [
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 240,
+              "x": 377.664,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 459,
+              "x": 533.56792296393,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": false
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 480,
+              "x": 521.30125629727,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 720,
+              "x": 286.05794388482,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 1,
+              "mode": "playing",
+              "step": 903,
+              "x": 286.05791392972,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 960,
+              "x": 340.62229983898,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 1200,
+              "x": 400.53791392973,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 2,
+              "mode": "playing",
+              "step": 1348,
+              "x": 400.53791392973,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": false
+              },
+              "kills": 3,
+              "mode": "playing",
+              "step": 1440,
+              "x": 296.9779126965,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 3,
+              "mode": "playing",
+              "step": 1680,
+              "x": 143.10393705526,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slash": true,
+                "slow": true
+              },
+              "kills": 3,
+              "mode": "playing",
+              "step": 1792,
+              "x": 143.10393705376,
+              "y": 246
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 4,
+              "mode": "playing",
+              "step": 1920,
+              "x": 297.06393705404,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 4,
+              "mode": "replay",
+              "step": 2160,
+              "x": 306.50456381556,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 4,
+              "mode": "replay",
+              "step": 2400,
+              "x": 306.50456381556,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 4,
+              "mode": "replay",
+              "step": 2640,
+              "x": 306.50456381556,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 4,
+              "mode": "replay",
+              "step": 2880,
+              "x": 306.50456381556,
+              "y": 246
+            },
+            {
+              "keys": {},
+              "kills": 4,
+              "mode": "replay",
+              "step": 3120,
+              "x": 306.50456381556,
+              "y": 246
+            }
+          ],
+          "trace_digest": 679237597,
+          "world_seconds": 9.753
+        },
+        {
+          "cpu": 0.135257,
+          "high_water": {
+            "bullets": 0,
+            "enemies": 4,
+            "frames": 292,
+            "fx": 4,
+            "objects": 2,
+            "particles": 26,
+            "stains": 73,
+            "trails": 8
+          },
+          "level": 3,
+          "living": 1,
+          "mode": "failed",
+          "real_seconds": 10.2,
+          "retries": 6,
+          "scheduled": 5,
+          "spawnIndex": 2,
+          "stats": {
+            "blastKills": 0,
+            "breaks": 0,
+            "dodges": 0,
+            "jumps": 7,
+            "kills": 0,
+            "parries": 0,
+            "reflectKills": 0,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 0,
+            "slowSeconds": 7.7416666666668,
+            "steps": 10,
+            "teleports": 0
+          },
+          "steps": 9754,
+          "trace": [
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 240,
+              "x": 377.664,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 268,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 397,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 480,
+              "x": 511.24370286558,
+              "y": 188.922
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 526,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 655,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 720,
+              "x": 494.51628685656,
+              "y": 182.9766
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 784,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 913,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 960,
+              "x": 483.54819684818,
+              "y": 186.9456
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 1042,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "dying",
+              "step": 1200,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "restart": true
+              },
+              "kills": 0,
+              "mode": "rewind",
+              "step": 1225,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 1440,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 1680,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 1920,
+              "x": 350.28,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 1974,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2103,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2160,
+              "x": 489.1795019601,
+              "y": 183.5166
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2232,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2361,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2400,
+              "x": 483.48710004259,
+              "y": 191.892
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2490,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2619,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2640,
+              "x": 485.17616357511,
+              "y": 210.1818
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 2748,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "dying",
+              "step": 2880,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "restart": true
+              },
+              "kills": 0,
+              "mode": "rewind",
+              "step": 2931,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 3120,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 3360,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 3600,
+              "x": 313.88,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 3680,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 3809,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 3840,
+              "x": 483.8534604855,
+              "y": 198.7968
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 3938,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4067,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4080,
+              "x": 481.66827166943,
+              "y": 221.493
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4196,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4320,
+              "x": 481.84163384732,
+              "y": 239.475
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4325,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 4454,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "dying",
+              "step": 4560,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "restart": true
+              },
+              "kills": 0,
+              "mode": "rewind",
+              "step": 4637,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 4800,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 5040,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5280,
+              "x": 277.48,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5386,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5515,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5520,
+              "x": 484.58395092334,
+              "y": 234.7626
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5644,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5760,
+              "x": 493.79504004528,
+              "y": 225.5718
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5773,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 5902,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 6000,
+              "x": 502.51092210501,
+              "y": 201.45
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 6031,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 6160,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 6240,
+              "x": 503.79111966739,
+              "y": 187.2426
+            },
+            {
+              "keys": {
+                "restart": true
+              },
+              "kills": 0,
+              "mode": "rewind",
+              "step": 6343,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 6480,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 6720,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 6960,
+              "x": 241.08,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7092,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7200,
+              "x": 484.5964825862,
+              "y": 213.627
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7221,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7350,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7440,
+              "x": 510.55151138823,
+              "y": 193.9116
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7479,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7608,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7680,
+              "x": 497.63051934221,
+              "y": 184.1106
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7737,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7866,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 7920,
+              "x": 485.24895248583,
+              "y": 184.224
+            },
+            {
+              "keys": {
+                "restart": true
+              },
+              "kills": 0,
+              "mode": "rewind",
+              "step": 8049,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 8160,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {},
+              "kills": 0,
+              "mode": "rewind",
+              "step": 8400,
+              "x": 498.6196116999,
+              "y": 208.389
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": false
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 8640,
+              "x": 204.68000000004,
+              "y": 246
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 8798,
+              "x": 405.888,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 8880,
+              "x": 488.544,
+              "y": 188.3316
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 8927,
+              "x": 485.191956577,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": true,
+                "right": false,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9056,
+              "x": 487.56622084538,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9120,
+              "x": 495.01054197439,
+              "y": 182.937
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9185,
+              "x": 482.09853205835,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9314,
+              "x": 480.21418759383,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9360,
+              "x": 483.56167042844,
+              "y": 187.4568
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9443,
+              "x": 480.17204829688,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "jump": true,
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9572,
+              "x": 480.17204555293,
+              "y": 244.0506
+            },
+            {
+              "keys": {
+                "left": false,
+                "right": true,
+                "slow": true
+              },
+              "kills": 0,
+              "mode": "playing",
+              "step": 9600,
+              "x": 483.11010620584,
+              "y": 201.891
+            }
+          ],
+          "trace_digest": 1448026019,
+          "world_seconds": 3.5115
+        }
+      ],
+      "mode": "failed",
+      "no_state_mutation": true,
+      "total_steps": 15535,
+      "trace_digest": 1448026019,
+      "transitions": [
+        {
+          "from": "playing",
+          "level": 1,
+          "step": 1593,
+          "time": 8.4584999999999,
+          "to": "replay"
+        },
+        {
+          "from": "replay",
+          "level": 1,
+          "step": 2639,
+          "time": 8.4584999999999,
+          "to": "complete"
+        },
+        {
+          "from": "playing",
+          "level": 2,
+          "step": 4580,
+          "time": 9.753,
+          "to": "replay"
+        },
+        {
+          "from": "replay",
+          "level": 2,
+          "step": 5781,
+          "time": 9.753,
+          "to": "complete"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 6927,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 7005,
+          "time": 3.5115,
+          "to": "failed"
+        },
+        {
+          "cause": "刀锋",
+          "from": "failed",
+          "level": 3,
+          "step": 7006,
+          "time": 3.5115,
+          "to": "rewind"
+        },
+        {
+          "cause": "刀锋",
+          "from": "rewind",
+          "level": 3,
+          "step": 7487,
+          "time": 0,
+          "to": "playing"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 8633,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 8711,
+          "time": 3.5115,
+          "to": "failed"
+        },
+        {
+          "cause": "刀锋",
+          "from": "failed",
+          "level": 3,
+          "step": 8712,
+          "time": 3.5115,
+          "to": "rewind"
+        },
+        {
+          "cause": "刀锋",
+          "from": "rewind",
+          "level": 3,
+          "step": 9193,
+          "time": 0,
+          "to": "playing"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 10339,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 10417,
+          "time": 3.5115,
+          "to": "failed"
+        },
+        {
+          "cause": "刀锋",
+          "from": "failed",
+          "level": 3,
+          "step": 10418,
+          "time": 3.5115,
+          "to": "rewind"
+        },
+        {
+          "cause": "刀锋",
+          "from": "rewind",
+          "level": 3,
+          "step": 10899,
+          "time": 0,
+          "to": "playing"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 12045,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 12123,
+          "time": 3.5115,
+          "to": "failed"
+        },
+        {
+          "cause": "刀锋",
+          "from": "failed",
+          "level": 3,
+          "step": 12124,
+          "time": 3.5115,
+          "to": "rewind"
+        },
+        {
+          "cause": "刀锋",
+          "from": "rewind",
+          "level": 3,
+          "step": 12605,
+          "time": 0,
+          "to": "playing"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 13751,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 13829,
+          "time": 3.5115,
+          "to": "failed"
+        },
+        {
+          "cause": "刀锋",
+          "from": "failed",
+          "level": 3,
+          "step": 13830,
+          "time": 3.5115,
+          "to": "rewind"
+        },
+        {
+          "cause": "刀锋",
+          "from": "rewind",
+          "level": 3,
+          "step": 14311,
+          "time": 0,
+          "to": "playing"
+        },
+        {
+          "cause": "刀锋",
+          "from": "playing",
+          "level": 3,
+          "step": 15457,
+          "time": 3.5115,
+          "to": "dying"
+        },
+        {
+          "cause": "刀锋",
+          "from": "dying",
+          "level": 3,
+          "step": 15535,
+          "time": 3.5115,
+          "to": "failed"
+        }
+      ]
+    },
+    "constraints": {
+      "gameplay_sources_modified_by_suite": false,
+      "installation": false,
+      "isolated_fixtures_not_campaign": true,
+      "network": false,
+      "pure_lua": true,
+      "render_audio_os_key_delivery": "not tested by pure Lua suite"
+    },
+    "counts": {
+      "blocked": 7,
+      "fail": 6,
+      "pass": 55
+    },
+    "longrun": {
+      "active_steps": 148808,
+      "checkpoints": [
+        {
+          "active_steps": 7193,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 3,
+            "frames": 187,
+            "fx": 1,
+            "objects": 2,
+            "particles": 26,
+            "stains": 28,
+            "trails": 8
+          },
+          "completed": 2,
+          "failed": 1,
+          "level": 3,
+          "lua_kib": 4117.064453125,
+          "mode": "playing",
+          "step": 10000
+        },
+        {
+          "active_steps": 15513,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 5,
+            "frames": 289,
+            "fx": 2,
+            "objects": 2,
+            "particles": 0,
+            "stains": 50,
+            "trails": 8
+          },
+          "completed": 2,
+          "failed": 4,
+          "level": 3,
+          "lua_kib": 6437.775390625,
+          "mode": "playing",
+          "step": 20000
+        },
+        {
+          "active_steps": 22154,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 81,
+            "fx": 1,
+            "objects": 2,
+            "particles": 0,
+            "stains": 0,
+            "trails": 8
+          },
+          "completed": 2,
+          "failed": 10,
+          "level": 3,
+          "lua_kib": 2169.4638671875,
+          "mode": "playing",
+          "step": 30000
+        },
+        {
+          "active_steps": 29882,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 104,
+            "fx": 0,
+            "objects": 2,
+            "particles": 26,
+            "stains": 2,
+            "trails": 8
+          },
+          "completed": 2,
+          "failed": 14,
+          "level": 3,
+          "lua_kib": 2317.6533203125,
+          "mode": "dying",
+          "step": 40000
+        },
+        {
+          "active_steps": 36554,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 79,
+            "fx": 1,
+            "objects": 2,
+            "particles": 68,
+            "stains": 7,
+            "trails": 5
+          },
+          "completed": 2,
+          "failed": 20,
+          "level": 3,
+          "lua_kib": 2941.603515625,
+          "mode": "playing",
+          "step": 50000
+        },
+        {
+          "active_steps": 44076,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 106,
+            "fx": 1,
+            "objects": 2,
+            "particles": 0,
+            "stains": 19,
+            "trails": 0
+          },
+          "completed": 3,
+          "failed": 22,
+          "level": 4,
+          "lua_kib": 2602.306640625,
+          "mode": "playing",
+          "step": 60000
+        },
+        {
+          "active_steps": 51509,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 2,
+            "frames": 105,
+            "fx": 0,
+            "objects": 3,
+            "particles": 16,
+            "stains": 2,
+            "trails": 8
+          },
+          "completed": 4,
+          "failed": 24,
+          "level": 5,
+          "lua_kib": 2351.6376953125,
+          "mode": "rewind",
+          "step": 70000
+        },
+        {
+          "active_steps": 58136,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 2,
+            "frames": 105,
+            "fx": 0,
+            "objects": 3,
+            "particles": 16,
+            "stains": 2,
+            "trails": 8
+          },
+          "completed": 4,
+          "failed": 30,
+          "level": 5,
+          "lua_kib": 2352.4345703125,
+          "mode": "rewind",
+          "step": 80000
+        },
+        {
+          "active_steps": 65274,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 85,
+            "fx": 3,
+            "objects": 3,
+            "particles": 0,
+            "stains": 0,
+            "trails": 8
+          },
+          "completed": 4,
+          "failed": 35,
+          "level": 5,
+          "lua_kib": 2214.7138671875,
+          "mode": "playing",
+          "step": 90000
+        },
+        {
+          "active_steps": 72520,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 3,
+            "frames": 189,
+            "fx": 2,
+            "objects": 3,
+            "particles": 18,
+            "stains": 28,
+            "trails": 5
+          },
+          "completed": 5,
+          "failed": 37,
+          "level": 6,
+          "lua_kib": 4458.095703125,
+          "mode": "playing",
+          "step": 100000
+        },
+        {
+          "active_steps": 79628,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 6,
+            "frames": 296,
+            "fx": 0,
+            "objects": 4,
+            "particles": 21,
+            "stains": 99,
+            "trails": 0
+          },
+          "completed": 6,
+          "failed": 39,
+          "level": 7,
+          "lua_kib": 7751.61328125,
+          "mode": "playing",
+          "step": 110000
+        },
+        {
+          "active_steps": 87182,
+          "arrays": {
+            "bullets": 1,
+            "enemies": 4,
+            "frames": 181,
+            "fx": 1,
+            "objects": 4,
+            "particles": 1,
+            "stains": 34,
+            "trails": 8
+          },
+          "completed": 7,
+          "failed": 40,
+          "level": 8,
+          "lua_kib": 3931.869140625,
+          "mode": "playing",
+          "step": 120000
+        },
+        {
+          "active_steps": 95502,
+          "arrays": {
+            "bullets": 1,
+            "enemies": 4,
+            "frames": 193,
+            "fx": 2,
+            "objects": 4,
+            "particles": 0,
+            "stains": 35,
+            "trails": 8
+          },
+          "completed": 7,
+          "failed": 43,
+          "level": 8,
+          "lua_kib": 4179.306640625,
+          "mode": "playing",
+          "step": 130000
+        },
+        {
+          "active_steps": 103262,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 58,
+            "fx": 0,
+            "objects": 4,
+            "particles": 0,
+            "stains": 0,
+            "trails": 7
+          },
+          "completed": 7,
+          "failed": 47,
+          "level": 8,
+          "lua_kib": 2141.1044921875,
+          "mode": "playing",
+          "step": 140000
+        },
+        {
+          "active_steps": 111582,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 2,
+            "frames": 117,
+            "fx": 1,
+            "objects": 4,
+            "particles": 0,
+            "stains": 17,
+            "trails": 8
+          },
+          "completed": 7,
+          "failed": 50,
+          "level": 8,
+          "lua_kib": 2819.931640625,
+          "mode": "playing",
+          "step": 150000
+        },
+        {
+          "active_steps": 119903,
+          "arrays": {
+            "bullets": 1,
+            "enemies": 7,
+            "frames": 304,
+            "fx": 1,
+            "objects": 4,
+            "particles": 33,
+            "stains": 87,
+            "trails": 8
+          },
+          "completed": 7,
+          "failed": 53,
+          "level": 8,
+          "lua_kib": 9183.001953125,
+          "mode": "playing",
+          "step": 160000
+        },
+        {
+          "active_steps": 125291,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 1,
+            "frames": 56,
+            "fx": 1,
+            "objects": 4,
+            "particles": 0,
+            "stains": 0,
+            "trails": 1
+          },
+          "completed": 8,
+          "failed": 58,
+          "level": 9,
+          "lua_kib": 2053.5576171875,
+          "mode": "playing",
+          "step": 170000
+        },
+        {
+          "active_steps": 132755,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 11,
+            "frames": 478,
+            "fx": 0,
+            "objects": 4,
+            "particles": 1,
+            "stains": 140,
+            "trails": 0
+          },
+          "completed": 8,
+          "failed": 61,
+          "level": 9,
+          "lua_kib": 18800.25390625,
+          "mode": "replay",
+          "step": 180000
+        },
+        {
+          "active_steps": 140280,
+          "arrays": {
+            "bullets": 1,
+            "enemies": 6,
+            "frames": 238,
+            "fx": 0,
+            "objects": 4,
+            "particles": 19,
+            "stains": 33,
+            "trails": 8
+          },
+          "completed": 9,
+          "failed": 64,
+          "level": 10,
+          "lua_kib": 5147.83984375,
+          "mode": "rewind",
+          "step": 190000
+        },
+        {
+          "active_steps": 148808,
+          "arrays": {
+            "bullets": 0,
+            "enemies": 4,
+            "frames": 165,
+            "fx": 1,
+            "objects": 4,
+            "particles": 37,
+            "stains": 19,
+            "trails": 8
+          },
+          "completed": 9,
+          "failed": 66,
+          "level": 10,
+          "lua_kib": 3672.150390625,
+          "mode": "playing",
+          "step": 200000
+        }
+      ],
+      "completions": 9,
+      "failures": 66,
+      "high_water": {
+        "bullets": 7,
+        "enemies": 11,
+        "frames": 478,
+        "fx": 7,
+        "objects": 4,
+        "particles": 218,
+        "stains": 140,
+        "trails": 8
+      },
+      "memory_max_gc_kib": 18800.25390625,
+      "memory_start_kib": 1881.7724609375,
+      "replay_steps": 14386,
+      "steps": 200000
+    },
+    "lua": "Lua 5.4",
+    "schema": 1,
+    "step": 0.0083333333333333,
+    "tests": [
+      {
+        "category": "config",
+        "duration_cpu": 0.00073099999999998,
+        "evidence": {
+          "wave_counts": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        "id": "config.ten_chapters",
+        "source": "Config.lua",
+        "status": "pass"
+      },
+      {
+        "category": "collision",
+        "duration_cpu": 2.0999999999993e-05,
+        "evidence": {},
+        "id": "collision.sweep_edges",
+        "source": "Collision.lua",
+        "status": "pass"
+      },
+      {
+        "category": "collision",
+        "duration_cpu": 7.000000000007e-06,
+        "evidence": {
+          "body": {
+            "h": 34,
+            "w": 18,
+            "x": 91,
+            "y": 212
+          }
+        },
+        "id": "collision.ranged_body_contract",
+        "source": "Collision.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.000219,
+        "evidence": {},
+        "id": "combat.one_slash.melee",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.00020100000000001,
+        "evidence": {},
+        "id": "combat.one_slash.ranged",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.00022599999999998,
+        "evidence": {},
+        "id": "combat.multi_kill_and_dead_no_attack",
+        "source": "World.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.00056400000000001,
+        "error": "[string \"/workspace/tests/simulation\"]:213: assertion failed!\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:213: in function <[string \"/workspace/tests/simulation\"]:210>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:210: in upvalue 'mechanics'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {},
+        "id": "combat.spawn_not_knife_target",
+        "source": "Combat.lua",
+        "status": "fail"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.000249,
+        "evidence": {},
+        "id": "combat.dead_player_cannot_slash",
+        "source": "Player.lua/Collision.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.00010600000000002,
+        "evidence": {},
+        "id": "combat.melee_one_hit_death",
+        "source": "Enemies.lua/World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 0.00010100000000002,
+        "evidence": {},
+        "id": "combat.shield_one_hit_death",
+        "source": "Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 9.300000000001e-05,
+        "evidence": {},
+        "id": "combat.bullet_swept_one_hit",
+        "source": "Combat.lua/Collision.lua",
+        "status": "pass"
+      },
+      {
+        "category": "combat",
+        "duration_cpu": 6.8000000000012e-05,
+        "evidence": {},
+        "id": "combat.friendly_never_hurts_player",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00017699999999998,
+        "evidence": {
+          "expected_iframe": false,
+          "time": 0.044999
+        },
+        "id": "roll.boundary.0.044999",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.000162,
+        "evidence": {
+          "expected_iframe": true,
+          "time": 0.045
+        },
+        "id": "roll.boundary.0.045000",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00015599999999999,
+        "evidence": {
+          "expected_iframe": true,
+          "time": 0.045001
+        },
+        "id": "roll.boundary.0.045001",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00016300000000002,
+        "evidence": {
+          "expected_iframe": true,
+          "time": 0.309999
+        },
+        "id": "roll.boundary.0.309999",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00017,
+        "evidence": {
+          "expected_iframe": true,
+          "time": 0.31
+        },
+        "id": "roll.boundary.0.310000",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.000307,
+        "evidence": {
+          "expected_iframe": false,
+          "time": 0.310001
+        },
+        "id": "roll.boundary.0.310001",
+        "source": "Collision.lua/Combat.lua/Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00094499999999997,
+        "evidence": {
+          "states": {
+            "idle": true,
+            "recover": true,
+            "roll": true
+          }
+        },
+        "id": "roll.legal_lifecycle_and_wall",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "roll",
+        "duration_cpu": 0.00068299999999999,
+        "evidence": {},
+        "id": "roll.cooldown_prevents_spam",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "parry",
+        "duration_cpu": 0.00037599999999999,
+        "evidence": {
+          "stats": {
+            "blastKills": 0,
+            "breaks": 0,
+            "dodges": 0,
+            "jumps": 0,
+            "kills": 1,
+            "parries": 1,
+            "reflectKills": 1,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 0,
+            "slowSeconds": 0,
+            "steps": 0,
+            "teleports": 0
+          }
+        },
+        "id": "parry.front_sweep_then_reflect_kill",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "parry",
+        "duration_cpu": 9.9000000000016e-05,
+        "evidence": {},
+        "id": "parry.body_blade_tie_prioritizes_blade",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "parry",
+        "duration_cpu": 0.00014199999999998,
+        "evidence": {},
+        "id": "parry.rear_body_before_blade_dies",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "parry",
+        "duration_cpu": 1.2999999999985e-05,
+        "evidence": {},
+        "id": "parry.windup_and_recovery_no_parry",
+        "source": "Collision.lua",
+        "status": "pass"
+      },
+      {
+        "category": "time",
+        "duration_cpu": 0.000527,
+        "evidence": {
+          "player_animation_seconds": 0.72,
+          "player_world_ratio": 3.2727272727273,
+          "world_seconds": 0.22
+        },
+        "id": "time.slow_world_player_ratios",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "time",
+        "duration_cpu": 8.3e-05,
+        "evidence": {},
+        "id": "time.bullet_enemy_fx_particles_slow",
+        "source": "World.lua/Effects.lua",
+        "status": "pass"
+      },
+      {
+        "category": "input",
+        "duration_cpu": 0.000803,
+        "evidence": {
+          "residual_velocity": 0.15177043768367
+        },
+        "id": "input.left_right_cancel",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "movement",
+        "duration_cpu": 0.00076900000000002,
+        "evidence": {
+          "jump_apex": 183.30902777778
+        },
+        "id": "movement.legal_jump_land",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "movement",
+        "duration_cpu": 0.00054999999999999,
+        "evidence": {},
+        "id": "movement.wallslide_and_walljump",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "movement",
+        "duration_cpu": 0.00079899999999999,
+        "evidence": {},
+        "id": "movement.platform_from_below_and_land",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "movement",
+        "duration_cpu": 0.001324,
+        "evidence": {
+          "apex": 183.30902777778,
+          "launch_x": 196.28000000015,
+          "platform_y": 192
+        },
+        "id": "movement.planned_first_platform_reachable",
+        "source": "Player.lua/World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "movement",
+        "duration_cpu": 7.2000000000016e-05,
+        "evidence": {},
+        "id": "movement.no_air_double_jump",
+        "source": "Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "flow",
+        "duration_cpu": 0.001038,
+        "evidence": {},
+        "id": "flow.R_only_settlement",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "flow",
+        "duration_cpu": 0.000114,
+        "evidence": {},
+        "id": "flow.next_restricted_and_ending",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "spawn",
+        "duration_cpu": 0.00093100000000002,
+        "evidence": {
+          "first_spawn_world_time": 1.8083333333333
+        },
+        "id": "spawn.waiting_waves_block_victory",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "spawn",
+        "duration_cpu": 0.000108,
+        "evidence": {
+          "doors_seen": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "id": "spawn.all_four_doors_actual",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "spawn",
+        "duration_cpu": 0.004327,
+        "evidence": {
+          "real_first_spawn_after": 8.2500000000002
+        },
+        "id": "spawn.slow_uses_world_time",
+        "source": "World.lua",
+        "status": "pass"
+      },
+      {
+        "category": "FSM",
+        "duration_cpu": 0.001021,
+        "error": "[string \"/workspace/tests/simulation\"]:390: assertion failed!\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:390: in function <[string \"/workspace/tests/simulation\"]:386>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:386: in upvalue 'mechanics'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {},
+        "id": "FSM.melee_all_states",
+        "source": "Enemies.lua",
+        "status": "fail"
+      },
+      {
+        "category": "FSM",
+        "duration_cpu": 0.00049299999999997,
+        "evidence": {
+          "visited": {
+            "ranged:death": true,
+            "ranged:idle": true,
+            "ranged:recover": true,
+            "ranged:run": true,
+            "ranged:shield": true,
+            "ranged:shieldhit": true,
+            "ranged:shoot": true,
+            "ranged:shootend": true,
+            "ranged:spawn": true,
+            "ranged:switch": true,
+            "ranged:walk": true
+          }
+        },
+        "id": "FSM.ranged_all_states",
+        "source": "Enemies.lua",
+        "status": "pass"
+      },
+      {
+        "category": "FSM",
+        "duration_cpu": 0.00058399999999997,
+        "error": "[string \"/workspace/tests/simulation\"]:416: plan promises high-level bursts; Shoot emits only one\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:416: in function <[string \"/workspace/tests/simulation\"]:411>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:411: in upvalue 'mechanics'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {
+          "shots_in_high_level_shoot": 1
+        },
+        "id": "FSM.high_level_multi_shot_contract",
+        "source": "Enemies.lua",
+        "status": "fail"
+      },
+      {
+        "category": "replay",
+        "duration_cpu": 0.0015790000000001,
+        "evidence": {
+          "real_end": 2.9833333333333,
+          "replay_seconds": 1.675,
+          "world_end": 1.4233333333333
+        },
+        "id": "replay.normal_world_timeline_not_real",
+        "source": "Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "replay",
+        "duration_cpu": 0.00033299999999997,
+        "evidence": {},
+        "id": "replay.copy_isolation_no_reexecution",
+        "source": "Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "replay",
+        "duration_cpu": 7.0000000000014e-05,
+        "evidence": {
+          "after": 0,
+          "before": 0
+        },
+        "id": "replay.force_capture_does_not_double_accum",
+        "source": "Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "rewind",
+        "duration_cpu": 0.001519,
+        "evidence": {
+          "rewind_samples": 134
+        },
+        "id": "rewind.only_current_level",
+        "source": "World.lua/Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "rewind",
+        "duration_cpu": 0.005723,
+        "evidence": {
+          "rewind_seconds": 4.0083333333333
+        },
+        "id": "rewind.maximum_four_real_seconds",
+        "source": "Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 0.003723,
+        "evidence": {
+          "stats": {
+            "blastKills": 0,
+            "breaks": 1,
+            "dodges": 0,
+            "jumps": 0,
+            "kills": 1,
+            "parries": 0,
+            "reflectKills": 1,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 1,
+            "slowSeconds": 0,
+            "steps": 0,
+            "teleports": 0
+          }
+        },
+        "id": "objects.crate_slash_shards_kill",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 0.000282,
+        "evidence": {
+          "stats": {
+            "blastKills": 2,
+            "breaks": 3,
+            "dodges": 0,
+            "jumps": 0,
+            "kills": 2,
+            "parries": 0,
+            "reflectKills": 0,
+            "rolls": 0,
+            "shots": 0,
+            "slashes": 0,
+            "slowSeconds": 0,
+            "steps": 0,
+            "teleports": 0
+          }
+        },
+        "id": "objects.barrel_chain_kills",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 0.000245,
+        "evidence": {},
+        "id": "objects.player_blast_and_roll_protection",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 0.000336,
+        "evidence": {
+          "distance": 60
+        },
+        "id": "objects.safe_legal_edge_barrel_slash",
+        "source": "Combat.lua/Player.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 9.2000000000036e-05,
+        "evidence": {
+          "crate_broken": true,
+          "player_dead": false
+        },
+        "id": "objects.hostile_bullet_intercepts_before_player",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "objects",
+        "duration_cpu": 0.00059100000000001,
+        "error": "[string \"/workspace/tests/simulation\"]:496: blast must not chain to object 146px above barrel\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:496: in function <[string \"/workspace/tests/simulation\"]:492>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:492: in upvalue 'mechanics'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {
+          "remote_crate_broken": true
+        },
+        "id": "objects.chain_respects_vertical_distance",
+        "source": "Combat.lua",
+        "status": "fail"
+      },
+      {
+        "category": "portal",
+        "duration_cpu": 9.7999999999987e-05,
+        "evidence": {},
+        "id": "portal.player_and_bullet_pair",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "portal",
+        "duration_cpu": 8.0999999999998e-05,
+        "evidence": {},
+        "id": "portal.no_loop_and_height_gate",
+        "source": "Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "portal",
+        "duration_cpu": 0.000971,
+        "evidence": {
+          "decrements": "P.Update and B.Portals both decrement player portalCD",
+          "normal_cooldown_seconds": 0.65
+        },
+        "id": "portal.player_650ms_cooldown_real_clock",
+        "source": "Player.lua/Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "portal",
+        "duration_cpu": 0.00059199999999998,
+        "error": "[string \"/workspace/tests/simulation\"]:48: swept bullet crossing portal must teleport, not tunnel expected=1 actual=0\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:48: in upvalue 'equal'\n\t[string \"/workspace/tests/simulation\"]:522: in function <[string \"/workspace/tests/simulation\"]:518>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:518: in upvalue 'mechanics'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {
+          "teleports": 0,
+          "x_after": 100
+        },
+        "id": "portal.swept_fast_bullet",
+        "source": "Combat.lua",
+        "status": "fail"
+      },
+      {
+        "category": "stress",
+        "duration_cpu": 4.463898,
+        "evidence": {
+          "high_water": {
+            "bullets": 80,
+            "enemies": 0,
+            "frames": 2700,
+            "fx": 64,
+            "objects": 0,
+            "particles": 260,
+            "stains": 140,
+            "trails": 0
+          }
+        },
+        "id": "stress.direct_array_cap_adversarial",
+        "source": "Effects.lua/Combat.lua/Replay.lua",
+        "status": "pass"
+      },
+      {
+        "category": "campaign",
+        "duration_cpu": 0.052983,
+        "evidence": {
+          "result": {
+            "cpu": 0.052929,
+            "high_water": {
+              "bullets": 0,
+              "enemies": 4,
+              "frames": 292,
+              "fx": 4,
+              "objects": 2,
+              "particles": 26,
+              "stains": 73,
+              "trails": 8
+            },
+            "level": 1,
+            "living": 0,
+            "mode": "complete",
+            "real_seconds": 13.275,
+            "retries": 0,
+            "scheduled": 3,
+            "spawnIndex": 4,
+            "stats": {
+              "blastKills": 0,
+              "breaks": 0,
+              "dodges": 0,
+              "jumps": 0,
+              "kills": 3,
+              "parries": 0,
+              "reflectKills": 0,
+              "rolls": 0,
+              "shots": 0,
+              "slashes": 3,
+              "slowSeconds": 6.1750000000001,
+              "steps": 24,
+              "teleports": 0
+            },
+            "steps": 2639,
+            "trace": [
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 240,
+                "x": 377.664,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 459,
+                "x": 533.56792296393,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": false
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 480,
+                "x": 521.30125629727,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 720,
+                "x": 286.08792354627,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 951,
+                "x": 286.08792255909,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 960,
+                "x": 289.15458922576,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": false
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 1200,
+                "x": 400.56792255909,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 1440,
+                "x": 400.56792255909,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 1444,
+                "x": 400.56792255909,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 3,
+                "mode": "replay",
+                "step": 1680,
+                "x": 365.88792255913,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 3,
+                "mode": "replay",
+                "step": 1920,
+                "x": 365.88792255913,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 3,
+                "mode": "replay",
+                "step": 2160,
+                "x": 365.88792255913,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 3,
+                "mode": "replay",
+                "step": 2400,
+                "x": 365.88792255913,
+                "y": 246
+              }
+            ],
+            "trace_digest": 990292951,
+            "world_seconds": 8.4584999999999
+          }
+        },
+        "id": "campaign.legal_inputs.level_1",
+        "source": "World.lua/Player.lua/Enemies.lua/Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "campaign",
+        "duration_cpu": 0.060172000000001,
+        "evidence": {
+          "result": {
+            "cpu": 0.060022,
+            "high_water": {
+              "bullets": 0,
+              "enemies": 4,
+              "frames": 292,
+              "fx": 4,
+              "objects": 2,
+              "particles": 26,
+              "stains": 73,
+              "trails": 8
+            },
+            "level": 2,
+            "living": 0,
+            "mode": "complete",
+            "real_seconds": 16.175,
+            "retries": 0,
+            "scheduled": 4,
+            "spawnIndex": 5,
+            "stats": {
+              "blastKills": 0,
+              "breaks": 0,
+              "dodges": 0,
+              "jumps": 0,
+              "kills": 4,
+              "parries": 0,
+              "reflectKills": 0,
+              "rolls": 0,
+              "shots": 0,
+              "slashes": 4,
+              "slowSeconds": 8.2333333333335,
+              "steps": 34,
+              "teleports": 0
+            },
+            "steps": 3142,
+            "trace": [
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 240,
+                "x": 377.664,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 459,
+                "x": 533.56792296393,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": false
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 480,
+                "x": 521.30125629727,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 720,
+                "x": 286.05794388482,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 1,
+                "mode": "playing",
+                "step": 903,
+                "x": 286.05791392972,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 960,
+                "x": 340.62229983898,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 1200,
+                "x": 400.53791392973,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 2,
+                "mode": "playing",
+                "step": 1348,
+                "x": 400.53791392973,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": false
+                },
+                "kills": 3,
+                "mode": "playing",
+                "step": 1440,
+                "x": 296.9779126965,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 3,
+                "mode": "playing",
+                "step": 1680,
+                "x": 143.10393705526,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slash": true,
+                  "slow": true
+                },
+                "kills": 3,
+                "mode": "playing",
+                "step": 1792,
+                "x": 143.10393705376,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 4,
+                "mode": "playing",
+                "step": 1920,
+                "x": 297.06393705404,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 4,
+                "mode": "replay",
+                "step": 2160,
+                "x": 306.50456381556,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 4,
+                "mode": "replay",
+                "step": 2400,
+                "x": 306.50456381556,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 4,
+                "mode": "replay",
+                "step": 2640,
+                "x": 306.50456381556,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 4,
+                "mode": "replay",
+                "step": 2880,
+                "x": 306.50456381556,
+                "y": 246
+              },
+              {
+                "keys": {},
+                "kills": 4,
+                "mode": "replay",
+                "step": 3120,
+                "x": 306.50456381556,
+                "y": 246
+              }
+            ],
+            "trace_digest": 679237597,
+            "world_seconds": 9.753
+          }
+        },
+        "id": "campaign.legal_inputs.level_2",
+        "source": "World.lua/Player.lua/Enemies.lua/Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "campaign",
+        "duration_cpu": 0.135805,
+        "error": "[string \"/workspace/tests/simulation\"]:48: legal-input robot did not reach settlement expected=complete actual=failed\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"/workspace/tests/simulation\"]:48: in upvalue 'equal'\n\t[string \"/workspace/tests/simulation\"]:573: in function <[string \"/workspace/tests/simulation\"]:543>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:58: in upvalue 'test'\n\t[string \"/workspace/tests/simulation\"]:543: in upvalue 'campaign'\n\t[string \"/workspace/tests/simulation\"]:645: in function <[string \"/workspace/tests/simulation\"]:643>\n\t[C]: in function 'xpcall'\n\t[string \"/workspace/tests/simulation\"]:657: in function 'Start'",
+        "evidence": {
+          "result": {
+            "cpu": 0.135257,
+            "high_water": {
+              "bullets": 0,
+              "enemies": 4,
+              "frames": 292,
+              "fx": 4,
+              "objects": 2,
+              "particles": 26,
+              "stains": 73,
+              "trails": 8
+            },
+            "level": 3,
+            "living": 1,
+            "mode": "failed",
+            "real_seconds": 10.2,
+            "retries": 6,
+            "scheduled": 5,
+            "spawnIndex": 2,
+            "stats": {
+              "blastKills": 0,
+              "breaks": 0,
+              "dodges": 0,
+              "jumps": 7,
+              "kills": 0,
+              "parries": 0,
+              "reflectKills": 0,
+              "rolls": 0,
+              "shots": 0,
+              "slashes": 0,
+              "slowSeconds": 7.7416666666668,
+              "steps": 10,
+              "teleports": 0
+            },
+            "steps": 9754,
+            "trace": [
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 240,
+                "x": 377.664,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 268,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 397,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 480,
+                "x": 511.24370286558,
+                "y": 188.922
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 526,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 655,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 720,
+                "x": 494.51628685656,
+                "y": 182.9766
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 784,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 913,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 960,
+                "x": 483.54819684818,
+                "y": 186.9456
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 1042,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "dying",
+                "step": 1200,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "restart": true
+                },
+                "kills": 0,
+                "mode": "rewind",
+                "step": 1225,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 1440,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 1680,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 1920,
+                "x": 350.28,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 1974,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2103,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2160,
+                "x": 489.1795019601,
+                "y": 183.5166
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2232,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2361,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2400,
+                "x": 483.48710004259,
+                "y": 191.892
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2490,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2619,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2640,
+                "x": 485.17616357511,
+                "y": 210.1818
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 2748,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "dying",
+                "step": 2880,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "restart": true
+                },
+                "kills": 0,
+                "mode": "rewind",
+                "step": 2931,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 3120,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 3360,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 3600,
+                "x": 313.88,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 3680,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 3809,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 3840,
+                "x": 483.8534604855,
+                "y": 198.7968
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 3938,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4067,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4080,
+                "x": 481.66827166943,
+                "y": 221.493
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4196,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4320,
+                "x": 481.84163384732,
+                "y": 239.475
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4325,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 4454,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "dying",
+                "step": 4560,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "restart": true
+                },
+                "kills": 0,
+                "mode": "rewind",
+                "step": 4637,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 4800,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 5040,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5280,
+                "x": 277.48,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5386,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5515,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5520,
+                "x": 484.58395092334,
+                "y": 234.7626
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5644,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5760,
+                "x": 493.79504004528,
+                "y": 225.5718
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5773,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 5902,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 6000,
+                "x": 502.51092210501,
+                "y": 201.45
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 6031,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 6160,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 6240,
+                "x": 503.79111966739,
+                "y": 187.2426
+              },
+              {
+                "keys": {
+                  "restart": true
+                },
+                "kills": 0,
+                "mode": "rewind",
+                "step": 6343,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 6480,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 6720,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 6960,
+                "x": 241.08,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7092,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7200,
+                "x": 484.5964825862,
+                "y": 213.627
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7221,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7350,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7440,
+                "x": 510.55151138823,
+                "y": 193.9116
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7479,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7608,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7680,
+                "x": 497.63051934221,
+                "y": 184.1106
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7737,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7866,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 7920,
+                "x": 485.24895248583,
+                "y": 184.224
+              },
+              {
+                "keys": {
+                  "restart": true
+                },
+                "kills": 0,
+                "mode": "rewind",
+                "step": 8049,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 8160,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {},
+                "kills": 0,
+                "mode": "rewind",
+                "step": 8400,
+                "x": 498.6196116999,
+                "y": 208.389
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": false
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 8640,
+                "x": 204.68000000004,
+                "y": 246
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 8798,
+                "x": 405.888,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 8880,
+                "x": 488.544,
+                "y": 188.3316
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 8927,
+                "x": 485.191956577,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": true,
+                  "right": false,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9056,
+                "x": 487.56622084538,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9120,
+                "x": 495.01054197439,
+                "y": 182.937
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9185,
+                "x": 482.09853205835,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9314,
+                "x": 480.21418759383,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9360,
+                "x": 483.56167042844,
+                "y": 187.4568
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9443,
+                "x": 480.17204829688,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "jump": true,
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9572,
+                "x": 480.17204555293,
+                "y": 244.0506
+              },
+              {
+                "keys": {
+                  "left": false,
+                  "right": true,
+                  "slow": true
+                },
+                "kills": 0,
+                "mode": "playing",
+                "step": 9600,
+                "x": 483.11010620584,
+                "y": 201.891
+              }
+            ],
+            "trace_digest": 1448026019,
+            "world_seconds": 3.5115
+          }
+        },
+        "id": "campaign.legal_inputs.level_3",
+        "source": "World.lua/Player.lua/Enemies.lua/Combat.lua",
+        "status": "fail"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_4",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_5",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_6",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_7",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_8",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_9",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "campaign",
+        "error": "Previous campaign level did not complete; no forced Load or enemy removal permitted",
+        "evidence": {},
+        "id": "campaign.legal_inputs.level_10",
+        "source": "World.lua",
+        "status": "blocked"
+      },
+      {
+        "category": "stress",
+        "duration_cpu": 4.570452,
+        "evidence": {
+          "active_steps": 148808,
+          "checkpoints": [
+            {
+              "active_steps": 7193,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 3,
+                "frames": 187,
+                "fx": 1,
+                "objects": 2,
+                "particles": 26,
+                "stains": 28,
+                "trails": 8
+              },
+              "completed": 2,
+              "failed": 1,
+              "level": 3,
+              "lua_kib": 4117.064453125,
+              "mode": "playing",
+              "step": 10000
+            },
+            {
+              "active_steps": 15513,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 5,
+                "frames": 289,
+                "fx": 2,
+                "objects": 2,
+                "particles": 0,
+                "stains": 50,
+                "trails": 8
+              },
+              "completed": 2,
+              "failed": 4,
+              "level": 3,
+              "lua_kib": 6437.775390625,
+              "mode": "playing",
+              "step": 20000
+            },
+            {
+              "active_steps": 22154,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 81,
+                "fx": 1,
+                "objects": 2,
+                "particles": 0,
+                "stains": 0,
+                "trails": 8
+              },
+              "completed": 2,
+              "failed": 10,
+              "level": 3,
+              "lua_kib": 2169.4638671875,
+              "mode": "playing",
+              "step": 30000
+            },
+            {
+              "active_steps": 29882,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 104,
+                "fx": 0,
+                "objects": 2,
+                "particles": 26,
+                "stains": 2,
+                "trails": 8
+              },
+              "completed": 2,
+              "failed": 14,
+              "level": 3,
+              "lua_kib": 2317.6533203125,
+              "mode": "dying",
+              "step": 40000
+            },
+            {
+              "active_steps": 36554,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 79,
+                "fx": 1,
+                "objects": 2,
+                "particles": 68,
+                "stains": 7,
+                "trails": 5
+              },
+              "completed": 2,
+              "failed": 20,
+              "level": 3,
+              "lua_kib": 2941.603515625,
+              "mode": "playing",
+              "step": 50000
+            },
+            {
+              "active_steps": 44076,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 106,
+                "fx": 1,
+                "objects": 2,
+                "particles": 0,
+                "stains": 19,
+                "trails": 0
+              },
+              "completed": 3,
+              "failed": 22,
+              "level": 4,
+              "lua_kib": 2602.306640625,
+              "mode": "playing",
+              "step": 60000
+            },
+            {
+              "active_steps": 51509,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 2,
+                "frames": 105,
+                "fx": 0,
+                "objects": 3,
+                "particles": 16,
+                "stains": 2,
+                "trails": 8
+              },
+              "completed": 4,
+              "failed": 24,
+              "level": 5,
+              "lua_kib": 2351.6376953125,
+              "mode": "rewind",
+              "step": 70000
+            },
+            {
+              "active_steps": 58136,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 2,
+                "frames": 105,
+                "fx": 0,
+                "objects": 3,
+                "particles": 16,
+                "stains": 2,
+                "trails": 8
+              },
+              "completed": 4,
+              "failed": 30,
+              "level": 5,
+              "lua_kib": 2352.4345703125,
+              "mode": "rewind",
+              "step": 80000
+            },
+            {
+              "active_steps": 65274,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 85,
+                "fx": 3,
+                "objects": 3,
+                "particles": 0,
+                "stains": 0,
+                "trails": 8
+              },
+              "completed": 4,
+              "failed": 35,
+              "level": 5,
+              "lua_kib": 2214.7138671875,
+              "mode": "playing",
+              "step": 90000
+            },
+            {
+              "active_steps": 72520,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 3,
+                "frames": 189,
+                "fx": 2,
+                "objects": 3,
+                "particles": 18,
+                "stains": 28,
+                "trails": 5
+              },
+              "completed": 5,
+              "failed": 37,
+              "level": 6,
+              "lua_kib": 4458.095703125,
+              "mode": "playing",
+              "step": 100000
+            },
+            {
+              "active_steps": 79628,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 6,
+                "frames": 296,
+                "fx": 0,
+                "objects": 4,
+                "particles": 21,
+                "stains": 99,
+                "trails": 0
+              },
+              "completed": 6,
+              "failed": 39,
+              "level": 7,
+              "lua_kib": 7751.61328125,
+              "mode": "playing",
+              "step": 110000
+            },
+            {
+              "active_steps": 87182,
+              "arrays": {
+                "bullets": 1,
+                "enemies": 4,
+                "frames": 181,
+                "fx": 1,
+                "objects": 4,
+                "particles": 1,
+                "stains": 34,
+                "trails": 8
+              },
+              "completed": 7,
+              "failed": 40,
+              "level": 8,
+              "lua_kib": 3931.869140625,
+              "mode": "playing",
+              "step": 120000
+            },
+            {
+              "active_steps": 95502,
+              "arrays": {
+                "bullets": 1,
+                "enemies": 4,
+                "frames": 193,
+                "fx": 2,
+                "objects": 4,
+                "particles": 0,
+                "stains": 35,
+                "trails": 8
+              },
+              "completed": 7,
+              "failed": 43,
+              "level": 8,
+              "lua_kib": 4179.306640625,
+              "mode": "playing",
+              "step": 130000
+            },
+            {
+              "active_steps": 103262,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 58,
+                "fx": 0,
+                "objects": 4,
+                "particles": 0,
+                "stains": 0,
+                "trails": 7
+              },
+              "completed": 7,
+              "failed": 47,
+              "level": 8,
+              "lua_kib": 2141.1044921875,
+              "mode": "playing",
+              "step": 140000
+            },
+            {
+              "active_steps": 111582,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 2,
+                "frames": 117,
+                "fx": 1,
+                "objects": 4,
+                "particles": 0,
+                "stains": 17,
+                "trails": 8
+              },
+              "completed": 7,
+              "failed": 50,
+              "level": 8,
+              "lua_kib": 2819.931640625,
+              "mode": "playing",
+              "step": 150000
+            },
+            {
+              "active_steps": 119903,
+              "arrays": {
+                "bullets": 1,
+                "enemies": 7,
+                "frames": 304,
+                "fx": 1,
+                "objects": 4,
+                "particles": 33,
+                "stains": 87,
+                "trails": 8
+              },
+              "completed": 7,
+              "failed": 53,
+              "level": 8,
+              "lua_kib": 9183.001953125,
+              "mode": "playing",
+              "step": 160000
+            },
+            {
+              "active_steps": 125291,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 1,
+                "frames": 56,
+                "fx": 1,
+                "objects": 4,
+                "particles": 0,
+                "stains": 0,
+                "trails": 1
+              },
+              "completed": 8,
+              "failed": 58,
+              "level": 9,
+              "lua_kib": 2053.5576171875,
+              "mode": "playing",
+              "step": 170000
+            },
+            {
+              "active_steps": 132755,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 11,
+                "frames": 478,
+                "fx": 0,
+                "objects": 4,
+                "particles": 1,
+                "stains": 140,
+                "trails": 0
+              },
+              "completed": 8,
+              "failed": 61,
+              "level": 9,
+              "lua_kib": 18800.25390625,
+              "mode": "replay",
+              "step": 180000
+            },
+            {
+              "active_steps": 140280,
+              "arrays": {
+                "bullets": 1,
+                "enemies": 6,
+                "frames": 238,
+                "fx": 0,
+                "objects": 4,
+                "particles": 19,
+                "stains": 33,
+                "trails": 8
+              },
+              "completed": 9,
+              "failed": 64,
+              "level": 10,
+              "lua_kib": 5147.83984375,
+              "mode": "rewind",
+              "step": 190000
+            },
+            {
+              "active_steps": 148808,
+              "arrays": {
+                "bullets": 0,
+                "enemies": 4,
+                "frames": 165,
+                "fx": 1,
+                "objects": 4,
+                "particles": 37,
+                "stains": 19,
+                "trails": 8
+              },
+              "completed": 9,
+              "failed": 66,
+              "level": 10,
+              "lua_kib": 3672.150390625,
+              "mode": "playing",
+              "step": 200000
+            }
+          ],
+          "completions": 9,
+          "failures": 66,
+          "high_water": {
+            "bullets": 7,
+            "enemies": 11,
+            "frames": 478,
+            "fx": 7,
+            "objects": 4,
+            "particles": 218,
+            "stains": 140,
+            "trails": 8
+          },
+          "memory_max_gc_kib": 18800.25390625,
+          "memory_start_kib": 1881.7724609375,
+          "replay_steps": 14386,
+          "steps": 200000
+        },
+        "id": "stress.longrun_200000_legal_steps",
+        "source": "World.lua/Effects.lua/Replay.lua/Combat.lua",
+        "status": "pass"
+      },
+      {
+        "category": "stress",
+        "duration_cpu": 1.54542,
+        "evidence": {
+          "high_water": {
+            "bullets": 0,
+            "enemies": 0,
+            "frames": 2700,
+            "fx": 2,
+            "objects": 0,
+            "particles": 0,
+            "stains": 0,
+            "trails": 8
+          },
+          "memory": [
+            {
+              "frames": 1513,
+              "kib": 6529.0537109375,
+              "step": 10000
+            },
+            {
+              "frames": 2700,
+              "kib": 10175.733398438,
+              "step": 20000
+            },
+            {
+              "frames": 2700,
+              "kib": 10174.756835938,
+              "step": 30000
+            },
+            {
+              "frames": 2700,
+              "kib": 10177.225585938,
+              "step": 40000
+            },
+            {
+              "frames": 2700,
+              "kib": 10178.350585938,
+              "step": 50000
+            },
+            {
+              "frames": 2700,
+              "kib": 10178.608398438,
+              "step": 60000
+            },
+            {
+              "frames": 2700,
+              "kib": 10179.413085938,
+              "step": 70000
+            },
+            {
+              "frames": 2700,
+              "kib": 10175.444335938,
+              "step": 80000
+            },
+            {
+              "frames": 2700,
+              "kib": 10177.530273438,
+              "step": 90000
+            },
+            {
+              "frames": 2700,
+              "kib": 10177.530273438,
+              "step": 100000
+            }
+          ]
+        },
+        "id": "stress.replay_2700_live_idle_steps_memory",
+        "source": "Replay.lua",
+        "status": "pass"
+      }
+    ]
+  },
+  "limitations": [
+    "Logic only: no rendered gameplay, audible audio, or OS keyboard delivery asserted.",
+    "Unit fixtures arrange isolated states; campaign and 200k longrun use only action inputs.",
+    "Engine bootstrap emits Noop UI shader warnings; these are not simulation test failures."
+  ],
+  "status": "fail"
+}
